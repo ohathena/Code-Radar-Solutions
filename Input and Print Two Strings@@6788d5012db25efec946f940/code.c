@@ -5,7 +5,7 @@ int main() {
     char str[100];
     scanf("%s" , ch);
     scanf("%s" , str);
-    printf("You entered: '%s ch' and 'str'" );
+    printf("You entered: %s and %s" , ch ,str );
   
     return 0;
 }
