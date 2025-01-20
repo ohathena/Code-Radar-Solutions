@@ -3,7 +3,11 @@
 int main() {
     int a;
     scanf("%d" , &a);
-    int r =32 - a;
-    printf("%d", r);
+    int c=0;
+    while((a & (1<<31)) == 0){
+        a <<=1;
+        c++;
+    }
+    printf("%d", c);
     return 0;
 }
