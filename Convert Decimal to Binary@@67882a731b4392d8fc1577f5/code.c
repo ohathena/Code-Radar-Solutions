@@ -4,8 +4,15 @@
 int main() {
     int a;
     char b[4];
-itoa(a , b , 2);
+    int i =0;
+    while(a>0){
+        b[i]= a%2;
+        a = a/2;
+        i++;
+    }
+     for (int j =i-1; j >=0 ; j--){
+        printf("%d" , b[j]);
+     }
 
-    printf("%s", b);
     return 0;
 }
