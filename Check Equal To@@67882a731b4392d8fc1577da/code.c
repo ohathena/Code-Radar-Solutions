@@ -5,6 +5,6 @@ int main() {
     int b;
     scanf("%d" , &a);
     scanf("%d" , &b);
-    bool (a==b) ? True : False
+    printf("%s" (a==b) ? "True" : "False" ) ;
     return 0;
 }
