@@ -4,7 +4,7 @@
 int main() {
     int a;
     scanf("%d" , &a );
-    char b[4];
+    char b[33];
     int i =0;
     while(a>0){
         b[i]= a%2;
