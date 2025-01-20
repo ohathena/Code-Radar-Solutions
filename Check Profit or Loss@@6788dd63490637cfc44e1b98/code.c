@@ -4,7 +4,7 @@ int main() {
     int a;
     int b;
     if(a!=b){
-    printf("%s", (a>b)? "Profit" : "Loss");}
+    printf("%s", (a<b)? "Profit" : "Loss");}
     else{
         printf("No Profit No Loss");
     }
