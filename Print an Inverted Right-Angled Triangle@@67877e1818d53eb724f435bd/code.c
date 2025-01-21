@@ -2,6 +2,8 @@
 int main() {
      int N;
      scanf("%d" , &N);
-     printf("%d" , N);
+     for(int i=N; i>=1 ; i--){
+        printf("x");
+     }
     return 0;
 }
