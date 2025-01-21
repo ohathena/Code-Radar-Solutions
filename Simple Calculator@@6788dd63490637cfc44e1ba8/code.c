@@ -16,8 +16,13 @@ int main() {
         printf("%d" , a*b);
         break;
         case'/':
+        if(b!=0){
         r = (float)a/b;
-        printf("%d" , (int)r);
+        printf("%d" , (int)r);}
+        else{
+            printf("error");
+
+        }
         break;
         default:
         printf("error");
