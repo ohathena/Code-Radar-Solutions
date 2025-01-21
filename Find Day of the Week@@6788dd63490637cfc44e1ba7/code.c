@@ -5,6 +5,6 @@ int main() {
     scanf("%d" , &a);
     char* days[7][10] = {"Monday" , "Tuesday" , "Wednesday" , "Thursday" , "Friday" , 
     "Saturday" , "Sunday"};
-    printf("%s", days[a-1]);
+    printf("%c", days[a-1]);
     return 0;
 }
