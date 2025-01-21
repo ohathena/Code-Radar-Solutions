@@ -6,7 +6,9 @@ int main() {
     if(a>=1 &&a<8){
     int c= a-1;
      const char* days[] = {"Monday" , "Tuesday" , "Wednesday" , "Thursday" , "Friday" , "Saturday" , "Sunday"};
-    //   printf("%s", days[a-1]);
      printf("%s" , days[c]);}
+     else{
+        printf("Invalid");
+     }
     return 0;
 }
