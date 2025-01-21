@@ -3,7 +3,7 @@
 int main() {
     int a;
     scanf("%d" , &a);
-    char* days[] = {"Monday" , "Tuesday" , "Wednesday" , "Thursday" , "Friday" , 
+    char* days[7][10] = {"Monday" , "Tuesday" , "Wednesday" , "Thursday" , "Friday" , 
     "Saturday" , "Sunday"};
     printf("%s", days[a-1]);
     return 0;
