@@ -4,18 +4,22 @@ int main() {
     int a , b , r;
     char ch;
     scanf("%d %d %c" , &a , &b , &ch);
-    if(ch=='+'){
-        r= a+b;
+    switch(ch){
+        case '+':
+        printf("%d" , a+b);
+        break;
+        case'-':
+        printf("%d" , a-b);
+        break;
+        case '*':
+        printf("%d" , a*b);
+        break
+        case'/':
+        float r = (float)a/b;
+        printf("%d" , (int)r);
+        break;
+        default:
+        printf("Error");
     }
-    else if(ch=='-'){
-        r=a-b;
-    }
-    else if(ch=='*'){
-        r=a*b;
-    }
-    else{
-        r=a/b;
-    }
-    printf("%d", r);
     return 0;
 }
