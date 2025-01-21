@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    int a , b , r;
+    int a , b;
+    float r;
     char ch;
     scanf("%d %d %c" , &a , &b , &ch);
     switch(ch){
@@ -15,7 +16,7 @@ int main() {
         printf("%d" , a*b);
         break;
         case'/':
-        float r = (float)a/b;
+        r = (float)a/b;
         printf("%d" , (int)r);
         break;
         default:
