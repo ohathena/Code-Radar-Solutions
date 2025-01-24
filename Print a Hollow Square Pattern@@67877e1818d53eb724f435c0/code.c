@@ -12,8 +12,8 @@ int main() {
             //   printf(" ");
             }
         }
-        printf("\n");
+       // printf("\n");
     }
- 
+ printf("a");
     return 0;
 }
