@@ -15,7 +15,7 @@ int main() {
        }
        o[index++]='\n';
     }
-    o[index]='\0';
+    //o[index]='\0';
     printf("%s" , o);
 
     return 0;
