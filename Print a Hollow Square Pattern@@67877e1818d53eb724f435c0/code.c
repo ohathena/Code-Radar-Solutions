@@ -7,8 +7,7 @@ int main() {
     int index=0;
     
     for(int i=0; i<a ; i++){
-        printf("hi");
-    }/*
+    
         for(int j=0; j<a ; j++){
             if(i==0 || i==a-1 || j=0 || j==a-1){
               star[index++]= '*';
@@ -19,6 +18,8 @@ int main() {
        }
        star[index++]='\n';
     } 
+    printf("hi");
+    /*
     star[index]='\0';
     printf("%s" , star); */
     return 0;
