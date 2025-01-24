@@ -11,9 +11,9 @@ int main() {
         for(int k=1; k<=(2*i-1); k++){
             p[index++]='*';
             }
-            p[index++]='\n';
+            p[index++]='\n';}
         p[index]='\0';
         printf("%s" , p);
-    }
+    
     return 0;
 }
