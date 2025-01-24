@@ -10,7 +10,7 @@ int main() {
               s[index++]= "*";
             }
            else {
-               s[index++]= '';
+               s[index++]= ' ';
             }
        }
        s[index++]='\n';
