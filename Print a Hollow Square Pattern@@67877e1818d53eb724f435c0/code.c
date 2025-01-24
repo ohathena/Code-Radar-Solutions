@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main() {
     int a;
     scanf("%d" , &a);
@@ -16,7 +15,7 @@ int main() {
        }
        s[index++]='\n';
     }
-    p[index]='\0';
+    s[index]='\0';
     printf("%s" , s);
 
     return 0;
