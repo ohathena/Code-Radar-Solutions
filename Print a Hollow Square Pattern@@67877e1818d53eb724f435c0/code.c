@@ -2,7 +2,8 @@
 int main() {
     int a;
     scanf("%d" , &a);
-    char star[1000];
+    printf("d" , a);
+    /* char star[1000];
     int index=0;
     for(int i=0; i<a ; i++){
         for(int j=0; j<a ; j++){
@@ -16,7 +17,6 @@ int main() {
        star[index++]='\n';
     } 
     star[index]='\0';
-    printf("%s" , star);
-
+    printf("%s" , star); */
     return 0;
 }
