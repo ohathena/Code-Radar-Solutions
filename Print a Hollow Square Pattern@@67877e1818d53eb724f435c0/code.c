@@ -12,9 +12,8 @@ int main() {
             //   printf(" ");
           //  }
       //  }
-       // printf("\n");
+       printf("\n");
        printf("a");
     }
- printf("a");
     return 0;
 }
