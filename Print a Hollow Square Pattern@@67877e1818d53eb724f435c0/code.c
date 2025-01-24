@@ -2,7 +2,7 @@
 int main() {
     int a;
     scanf("%d" , &a);
-    printf("&d" , a);
+    printf("%d" , a);
     /* char star[1000];
     int index=0;
     for(int i=0; i<a ; i++){
