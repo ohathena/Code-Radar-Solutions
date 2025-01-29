@@ -16,7 +16,7 @@ int main() {
         ar[0]=temp;
     }
     for(int o =0; o<N ; o++){
-        printf("%d" , ar[o]);
+        printf("%d\n" , ar[o]);
     }
 
     return 0;
