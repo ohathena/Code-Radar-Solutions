@@ -11,6 +11,7 @@ int main() {
     for(int j=1 ; j<n ; j++){
         if(ar[j] > ar[j-1] && ar[j] > ar[j+1]){
             printf("%d" , ar[j]);
+            break;
         }
         
     }
