@@ -7,9 +7,12 @@ int main() {
     for(int i=0 ; i<=n ; i++){
         scanf("%d" , &ar[i]);
     }
-    for(int j=0 ; j<=n ; j++){
-        if(ar[j] >max){
+    for(int j=1 ; j<=n ; j++){
+        if(ar[j] >max && ar[j] < ar[j+1]){
             max =ar[j];
+        }
+        else{
+            break;
         }
     }
     printf("%d" , max);
