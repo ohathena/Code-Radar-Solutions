@@ -15,6 +15,12 @@ int main() {
             printf("%d" , ar[j]);
             break;
         }
+        else if(j==n-1 && ar[j] > ar[j-1]){
+            c++;
+            printf("%d" , ar[j]);
+            break;
+
+        }
         
     }
     if(c==0){
