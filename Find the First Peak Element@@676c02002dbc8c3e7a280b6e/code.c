@@ -2,10 +2,10 @@
 int main() {
     int n , max;
     scanf("%d" , &n);
-    int ar[n+1];
+    int ar[n];
     int c=0;
 
-    for(int i=0 ; i<=n ; i++){
+    for(int i=0 ; i<n ; i++){
         scanf("%d" , &ar[i]);
     }
 
