@@ -10,7 +10,7 @@ int main() {
         scanf("%d" , &arr[i]);
     }
     for(int j=0 ; j<n ; j++){
-        if(ar[j]%2==0){
+        if(arr[j]%2==0){
             c++;
         }
         else{
