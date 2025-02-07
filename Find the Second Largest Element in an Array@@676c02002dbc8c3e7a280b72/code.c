@@ -10,7 +10,7 @@ int main() {
     // if(n < 2){
     //     printf("%d" , -1); 
     // }
-    int max = arr[0];
+    int max = -1;
     int temp = arr[0];
     for(int i=0; i<n ; i++){
         if(arr[i] > temp){
