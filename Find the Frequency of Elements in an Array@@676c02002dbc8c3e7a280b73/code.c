@@ -17,13 +17,15 @@ int main() {
             }
         }  
    }
+   int y=0;
    for(int i=0; i<n-1 ; i++){
-    int y=0;
+    
         if(arr[i]==arr[i+1]){
            y++;
         }
         else{
-            printf("%d %d" , arr[i] , y);
+            printf("%d %d \n" , arr[i] , y);
+             y=0;
         }
     }
 
