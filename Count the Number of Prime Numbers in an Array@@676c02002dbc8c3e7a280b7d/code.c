@@ -2,12 +2,11 @@
 
 int main() {
     int n;
-    int num;
     int c=0;
     scanf("%d" , &n);
-    int arr[n];
+    int ar[n];
     for(int i=0; i<n ; i++){
-        scanf("%d" , &arr[i]);
+        scanf("%d" , &ar[i]);
     }
     for(int i=0; i<n ; i++){
         if(ar[i] == 2 || ar[i] == 3){
@@ -29,7 +28,7 @@ int main() {
             }
         }
     }
-    printf("%d" , c );
+    printf("%d" , c);
     
     return 0;
 }
