@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-void st(int roll, char *name, float marks , int n ,int i){
+void st(int roll, const char *name, float marks , int n ,int i){
     float max = 0.00;
     int  troll;
     char *tname;
