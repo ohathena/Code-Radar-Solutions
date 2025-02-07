@@ -15,6 +15,9 @@ int main() {
             temp = arr[i];
         }
     }
+    if(temp ==0){
+        return -1;
+    }
   printf("%d" , max);
     return 0;
 }
