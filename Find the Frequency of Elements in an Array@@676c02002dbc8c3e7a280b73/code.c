@@ -8,10 +8,10 @@ int main() {
         scanf("%d" , &arr[i]);
     }
     
-//     for(int i=0; i<n ; i++){
-//         copy[i] = arr[i];
-//     }
-//     int r = sizeof(arr);
+    for(int i=0; i<n ; i++){
+        copy[i] = arr[i];
+    }
+    int r = sizeof(arr);
     
 //     for (int i = 0; i < n; i++) {
 //         for (int j = i + 1; j < n; j++) {
