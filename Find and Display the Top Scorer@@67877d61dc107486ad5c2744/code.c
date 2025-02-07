@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 void st(int roll, char name[], float marks , int i){
     float max = 0.00;
     int  troll;
@@ -6,7 +7,7 @@ void st(int roll, char name[], float marks , int i){
      if(marks > max){
          max = marks;
          troll = roll;
-         tname[100] = name[100];   
+         strcopy(tname , name);   
      }
      if(i==n-1){
      printf("Top Scorer: Roll Number: %d, Name: %s, Marks: %.2f \n" , troll , tname , max);
