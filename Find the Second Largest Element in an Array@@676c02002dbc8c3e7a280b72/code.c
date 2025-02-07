@@ -1,4 +1,3 @@
-
 #include <stdbool.h>
 int main() {
     int n;
@@ -55,5 +54,4 @@ int main() {
    }
     printf("%d",max2);
     return 0;
-}
 }
