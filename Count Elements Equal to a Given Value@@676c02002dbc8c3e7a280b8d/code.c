@@ -10,14 +10,11 @@ int main() {
         scanf("%d" , &arr[i]);
     }
     for(int i=0; i<n-1 ; i++){
-     
         if(num == arr[i]){
-                c=c+1;
+                c++;
         }
-    
-
     }
-    printf("%d" ,c);
+    printf("%d" ,(c==0)? c : c+1);
     
     return 0;
 }
