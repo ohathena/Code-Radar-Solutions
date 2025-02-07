@@ -7,7 +7,7 @@ int main() {
     for(int i=0 ; i<c ; i++){
         scanf("%d" , &ar[i]);
     }
- in tu =0
+ int tu =0
     int max = ar[0];
     for(int j=0 ; j<c ; j++){ 
         if(ar[j] > max && ar[j]%2==0){
