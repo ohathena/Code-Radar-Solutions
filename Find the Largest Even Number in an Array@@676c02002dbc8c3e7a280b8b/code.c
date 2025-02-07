@@ -16,9 +16,9 @@ int main() {
         }
         
     }
-    if(tu==0){
-        printf("%d" , -1);
-    }
+    // if(tu==0){
+    //     printf("%d" , -1);
+    // }
     printf("%d",  max);
  
     return 0;
