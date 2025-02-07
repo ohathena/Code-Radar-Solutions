@@ -1,7 +1,4 @@
-#include <stdio.h>
 
-int main() {
-  #include <stdio.h>
 #include <stdbool.h>
 int main() {
     int n;
