@@ -10,7 +10,6 @@ int main() {
         scanf("%d" , &roll);
         scanf("%s" , &name);
         scanf("%f" , &marks);
-        st(roll , name , marks);
         sum+= marks;
     }
     float av = sum/n;
