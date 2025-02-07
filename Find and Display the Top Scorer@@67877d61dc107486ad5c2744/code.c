@@ -3,7 +3,7 @@
 void st(int roll, char name[], float marks , int n ,int i){
     float max = 0.00;
     int  troll;
-    char tname[100];
+    char *tname;
      if(marks > max){
          max = marks;
          troll = roll;
