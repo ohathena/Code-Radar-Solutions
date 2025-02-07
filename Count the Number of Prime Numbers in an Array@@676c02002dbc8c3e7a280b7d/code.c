@@ -19,14 +19,14 @@ int main() {
             int t=0;
             for(int j=2; j<i ; j++){
                 if(ar[i]%j==0){
-                    t++;
-                      printf("%d" , t);
+                    t =1;
+                    break;
                 }  
             }
           
-            // if(t==0){
-            //     c++;
-            // }
+            if(t==0){
+                c++;
+         }
         }
      }
      printf("%d" , c);
