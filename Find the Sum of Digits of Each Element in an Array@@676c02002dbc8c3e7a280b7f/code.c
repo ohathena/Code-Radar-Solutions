@@ -19,7 +19,7 @@ int main() {
        temp[i]= sum;
        
      }
-     printf("%d" , (int)sum);
+    // printf("%d" , (int)sum);
 
     return 0;
 }
