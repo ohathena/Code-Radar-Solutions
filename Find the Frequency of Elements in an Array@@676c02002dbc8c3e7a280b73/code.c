@@ -27,9 +27,9 @@ int main() {
         if(arr[i]==arr[i-1]){
            y++;
         }
-        else if(i== n-1){
-           printf("%d %d \n" , arr[i] , y);    
-        }
+        // else if(i== n-1){
+        //    printf("%d %d \n" , arr[i] , y);    
+        // }
         else {
              printf("%d %d \n" , arr[i-1] , y);
               y=1;
