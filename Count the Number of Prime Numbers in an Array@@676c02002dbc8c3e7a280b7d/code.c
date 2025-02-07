@@ -8,7 +8,7 @@ int main() {
     for(int i=0; i<n ; i++){
         scanf("%d" , &ar[i]);
     }
-    // for(int i=0; i<n ; i++){
+     for(int i=0; i<n ; i++){
     //     if(ar[i] == 2 || ar[i] == 3){
     //         c++;
     //     }
@@ -27,8 +27,8 @@ int main() {
     //             c++;
     //         }
     //     }
-    // }
-    // printf("%d" , c);
+     }
+     printf("%d" , c);
     
     return 0;
 }
