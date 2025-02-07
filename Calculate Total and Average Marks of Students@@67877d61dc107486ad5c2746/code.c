@@ -13,7 +13,7 @@ int main() {
         sum+= marks;
     }
     float av = sum/n;
-    printf("Total Marks: %.2f" , sum);
+    printf("Total Marks: %.2f \n" , sum);
     printf("Average Marks: %.2f" , av);
     
     return 0;
