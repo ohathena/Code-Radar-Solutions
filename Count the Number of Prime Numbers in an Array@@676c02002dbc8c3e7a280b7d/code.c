@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main() {
     int n;
     int c=0;
@@ -37,7 +36,7 @@ int main() {
             }
         }
         if(d>0){
-            t =1;
+            int t =1;
         }
         else{
             c++;
