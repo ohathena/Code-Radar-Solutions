@@ -11,7 +11,7 @@ int main() {
     for(int i=0; i<n ; i++){
         copy[i] = arr[i];
     }
-    int r = sizeof(arr);
+    int r = sizeof(arr) / sizeof(arr[0]);
     printf("%d %d" , r , n);
     
     for (int i = 0; i < n; i++) {
