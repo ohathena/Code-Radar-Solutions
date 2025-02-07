@@ -8,9 +8,9 @@ void st(int roll, char name[], float marks , int i){
          troll = roll;
          tname[100] = name[100];   
      }
-    // if(i==n-1){
-    // printf("Top Scorer: Roll Number: %d, Name: %s, Marks: %.2f \n" , troll , tname , max);
-    // }
+     if(i==n-1){
+     printf("Top Scorer: Roll Number: %d, Name: %s, Marks: %.2f \n" , troll , tname , max);
+     }
 
 }
 int main() {
