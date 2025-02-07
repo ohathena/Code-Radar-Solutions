@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-void st(int roll, char name[], float marks , int n ,int i){
+void st(int roll, char *name, float marks , int n ,int i){
     float max = 0.00;
     int  troll;
     char *tname;
@@ -16,7 +16,7 @@ void st(int roll, char name[], float marks , int n ,int i){
 }
 int main() {
     int n, roll;
-    char name[100];
+    char *name;
     float marks;
     scanf("%d" , &n);
     for(int i =0 ; i<n ; i++){
