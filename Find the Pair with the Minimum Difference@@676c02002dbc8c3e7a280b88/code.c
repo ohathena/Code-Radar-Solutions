@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int n;
+    int n , min1 , min2;
     scanf("%d" , &n);
     int arr[n];
     int max = 0;
@@ -10,7 +10,7 @@ int main() {
     }
     for(int i=0 ; i<n-1 ; i++){
         if(arr[i] - arr[i+1] < min){
-           int  min1 = arr[i]
+           int min1 = arr[i]
            int min2 = arr[i+1];
         }
     }
