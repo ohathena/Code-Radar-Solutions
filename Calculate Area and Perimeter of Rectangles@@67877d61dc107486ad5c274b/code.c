@@ -3,7 +3,7 @@ float ar(length , breath){
    //return (length*breath);
 }
 float pr(length , breath){
-    return (2(length+breath));
+   // return (2(length+breath));
 }
 int main() {
     int n, length , breath;
