@@ -19,7 +19,7 @@ int main() {
         }  
    }
    for(int i=0; i<n-1 ; i++){
-    int y=0
+    int y=0;
         if(arr[i]==arr[i+1]){
            y++;
         }
