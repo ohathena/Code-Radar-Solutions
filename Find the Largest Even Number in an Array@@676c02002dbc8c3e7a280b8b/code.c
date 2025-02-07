@@ -10,16 +10,18 @@ int main() {
    int tu =0;
     int max = ar[0];
     for(int j=0 ; j<c ; j++){ 
+        if(ar[j]%2 !=0){
+            tu++;
+        }
         if(ar[j] > max && ar[j]%2==0){
-            max = ar[j];
-            ++tu;   
+            max = ar[j];  
         }
         
     }
-    printf("%d  " , tu);
-    // if(tu==0){
-    //     printf("%d" , -1);
-    // }
+
+     if(tu== n){
+        return -1;
+     }
     printf("%d",  max);
  
     return 0;
