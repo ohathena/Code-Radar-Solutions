@@ -14,6 +14,7 @@ int main() {
             max =temp;
             temp = arr[i];
         }
+        printf("%d %d" , max , temp);
     }
     if(max ==0){
         printf("%d" , -1);
