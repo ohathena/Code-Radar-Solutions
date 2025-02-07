@@ -1,10 +1,12 @@
 #include <stdio.h>
 float ar(int length , int  breath){
-   return (length*breath);
+    float ty = length*breath;
+   return ty;
 }
 float pr(int length , int breath){
-    int s = length + breath;
-    return (2s);
+    float s = length + breath;
+    float ui = 2*s;
+    return ui ;
 }
 int main() {
     int n, length , breath;
