@@ -10,7 +10,7 @@ int main() {
     for(int i=0; i<n ; i++){
         copy[i] = arr[i];
     }
-t
+
     for (i = 0; i < n; i++) {
         for (j = i + 1; j < n; j++) {
             if (copy[i] == copy[j]) {
