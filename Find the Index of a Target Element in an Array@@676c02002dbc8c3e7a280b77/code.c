@@ -14,6 +14,7 @@ int main() {
         if(num == arr[i]){
                   printf("%d" , i );
                   c++;
+                  break;
         }
     }
     if(c==0){
