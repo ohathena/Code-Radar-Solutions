@@ -1,28 +1,62 @@
 #include <stdio.h>
 
 int main() {
+  #include <stdio.h>
+#include <stdbool.h>
+int main() {
     int n;
-    scanf("%d" , &n);
+    scanf("%d",&n);
+    if(n==1){
+        printf("%d",-1);
+        return 0;
+    
+    }
     int arr[n];
-    for(int i=0; i<n ; i++){
-        scanf("%d" , &arr[i]);
+    int arr2[n];
+    for(int i=0;i<n;i++){
+        scanf("%d",&arr[i]);
     }
-    // if(n < 2){
-    //     printf("%d" , -1); 
-    // }
-    int max = -1;
-    int temp = arr[0];
-    for(int i=0; i<n ; i++){
-        if(arr[i] > temp){
-            max =temp;
-            temp = arr[i];
+    if(n==2){
+        if(arr[1]>arr[0]){
+            printf("%d",arr[0]);
         }
-        else if (arr[i] > max && arr[i] != temp) {
-            max = arr[i];  
+        else{
+            printf("%d",arr[1]);
+        }
+        return 0;
+    }
+    int max=arr[0];
+    int index=0;
+    for(int i=0;i<n;i++){
+        if (max<arr[i]){
+                max=arr[i];
+                index=i;
         }
     }
+    int j=0;
+    for(int i=0;i<n;i++){
+        if (i!=index){
+            arr2[j]=arr[i];
+            j+=1;
 
-    printf("%d" , max);
-
+       }
+    }
+   bool c=false;
+    int max2=arr2[0];
+    for(int i=0;i<n-1;i++){
+        if(max2<=arr2[i]){
+            if(max !=arr2[i]){
+            max2=arr2[i];
+            c=true;
+            }
+    
+        }
+    }
+   if (c==false){
+    printf("%d",-1);
     return 0;
+   }
+    printf("%d",max2);
+    return 0;
+}
 }
