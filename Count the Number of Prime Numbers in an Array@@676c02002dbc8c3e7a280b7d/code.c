@@ -32,7 +32,7 @@ int main() {
         }
      }
      int l = sizeof(ar)/ sizeof(ar[0]);
-     
+     printf("%d" , l);
 
     //  int d=0;
     //     for(int i=2 ; i<ar[i] ; i++){
@@ -47,5 +47,5 @@ int main() {
     // }
     //  printf("%d" , c);
     
-    return l;
+    return 0;
 }
