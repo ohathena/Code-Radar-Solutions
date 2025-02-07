@@ -1,6 +1,6 @@
 #include <stdio.h>
 float ar(length , breath){
-    return (length*breath);
+   //return (length*breath);
 }
 float pr(length , breath){
     return (2(length+breath));
