@@ -7,21 +7,22 @@ int main() {
     for(int i=0; i<n ; i++){
         scanf("%d" , &arr[i]);
     }
-    int max = 0;
-    int temp = 0;
+    if(n< 2){
+        return -1;
+    }
+    int max = -1;
+    int temp = arr[0];
     for(int i=0; i<n ; i++){
         if(arr[i] > temp){
             max =temp;
             temp = arr[i];
         }
-        printf("%d %d" , max , temp);
+        else if (arr[i] > max && arr[i] != temp) {
+            max = arr[i];  
+        }
     }
-    if(max ==0){
-        printf("%d" , -1);
-    }
-    else{
-    printf("%d" , max);
-    }
- 
+
+    return secondLargest;
+
     return 0;
 }
