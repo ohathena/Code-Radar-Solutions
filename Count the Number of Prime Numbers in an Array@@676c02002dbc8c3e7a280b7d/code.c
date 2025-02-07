@@ -35,12 +35,10 @@ int main() {
                 d++;
             }
         }
-        if(d>0){
-            int t =1;
+        if(d==0){
+              c++;   
         }
-        else{
-            c++;
-        }
+       
     }
      printf("%d" , c);
     
