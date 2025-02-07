@@ -19,6 +19,7 @@ int main() {
         
     }
      if(tu==c){
+        printf("-1");
         return -1;
      }
     printf("%d",  max);
