@@ -33,7 +33,13 @@ int main() {
         }
      } 
      else{
-        if(arr[i] == arr)
+        if(arr[i] == arr[i-1]){
+            y+=1;
+            printf("%d %d \n", arr[i] , y);
+        }
+        else{
+            printf("%d %d \n", arr[i] , y);
+        }
      }
      }
 
