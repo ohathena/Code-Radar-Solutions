@@ -20,12 +20,12 @@ int main() {
             for(int j=2; j<i ; j++){
                 if(ar[i]%j==0){
                     t++;
-                }
-               
+                }  
             }
-            if(t==0){
-                c++;
-            }
+            printf("%d" , t);
+            // if(t==0){
+            //     c++;
+            // }
         }
      }
      printf("%d" , c);
