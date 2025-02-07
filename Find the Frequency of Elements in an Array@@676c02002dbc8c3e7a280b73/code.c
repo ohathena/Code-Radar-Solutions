@@ -6,7 +6,7 @@ int main() {
     for(int i=0; i<n ; i++){
         scanf("%d" , &arr[i]);
     }
-    int copy=[];
+    int copy=[n];
     for(int i=0; i<n ; i++){
         copy[i] = arr[i];
     }
