@@ -13,7 +13,7 @@ int main() {
             c++;
         }
         else if(ar[i]==0 || ar[i]==1){
-            continue,
+            continue;
         }
     //     else{
     //         int t=0;
