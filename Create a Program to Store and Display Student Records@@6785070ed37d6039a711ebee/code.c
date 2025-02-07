@@ -1,6 +1,6 @@
 #include <stdio.h>
 void st(int roll, char name[], float marks){
-    printf("Roll Number: %d, Name: %s, Marks: %.2f" , roll , name , marks);
+    printf("Roll Number: %d, Name: %s, Marks: %.2f \n" , roll , name , marks);
 }
 int main() {
     int n, roll;
@@ -10,7 +10,7 @@ int main() {
     for(int i =0 ; i<n ; i++){
         scanf("%d" , &roll);
         scanf("%s" , &name);
-        scanf("%.2f" , &marks);
+        scanf("%f" , &marks);
         st(roll , name , marks);
 
     }
