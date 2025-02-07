@@ -12,10 +12,10 @@ int main() {
         copy[i] = arr[i];
     }
 
-    for (i = 0; i < n; i++) {
-        for (j = i + 1; j < n; j++) {
+    for (int i = 0; i < n; i++) {
+        for (int j = i + 1; j < n; j++) {
             if (copy[i] == copy[j]) {
-                for (k = j; k < n - 1; k++) {
+                for (int k = j; k < n - 1; k++) {
                     copy[k] = copy[k + 1];
                 }
                 n--; 
