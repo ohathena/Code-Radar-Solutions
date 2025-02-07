@@ -12,7 +12,7 @@ int main() {
     for(int i=0; i<n ; i++){
         if(arr[i] > temp){
             max =temp;
-            temp = ar[i];
+            temp = arr[i];
         }
     }
   printf("%d" , max);
