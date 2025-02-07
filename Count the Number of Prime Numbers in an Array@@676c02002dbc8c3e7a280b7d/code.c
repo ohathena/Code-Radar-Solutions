@@ -9,26 +9,40 @@ int main() {
         scanf("%d" , &ar[i]);
     }
      for(int i=0; i<n ; i++){
-        if(ar[i] == 2 || ar[i] == 3){
-            c++;
+    //     if(ar[i] == 2 || ar[i] == 3){
+    //         c++;
+    //     }
+    //     else if(ar[i]==0 || ar[i]==1){
+    //         continue;
+    //     }
+    //     else{
+    //         int t=0;
+    //         for(int j=2; j<i ; j++){
+    //             if(ar[i]%j==0){
+    //                 t =1;
+    //                 break;
+    //             }  
+    //         }
+          
+    //         if(t==0){
+    //              c++;
+    //       }
+    //     }
+    //  }
+
+     int d=0;
+        for(int i=2 ; i<ar[i] ; i++){
+            if(a[r]%i==0){
+                d++;
+            }
         }
-        else if(ar[i]==0 || ar[i]==1){
-            continue;
+        if(d>0){
+            t =1;
         }
         else{
-            int t=0;
-            for(int j=2; j<i ; j++){
-                if(ar[i]%j==0){
-                    t =1;
-                    break;
-                }  
-            }
-          
-            if(t==0){
-                 c++;
-          }
+            c++;
         }
-     }
+    }
      printf("%d" , c);
     
     return 0;
