@@ -15,18 +15,18 @@ int main() {
         else if(ar[i]==0 || ar[i]==1){
             continue;
         }
-    //     else{
-    //         int t=0;
-    //         for(int j=2; j<n ; j++){
-    //             if(ar[i]%j==0){
-    //                 t++;
-    //             }
+        else{
+            int t=0;
+            for(int j=2; j<n ; j++){
+                if(ar[i]%j==0){
+                    t++;
+                }
                
-    //         }
-    //         if(t==0){
-    //             c++;
-    //         }
-    //     }
+            }
+            if(t==0){
+                c++;
+            }
+        }
      }
      printf("%d" , c);
     
