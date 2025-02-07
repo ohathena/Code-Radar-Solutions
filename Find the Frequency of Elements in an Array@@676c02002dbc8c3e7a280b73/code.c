@@ -37,15 +37,15 @@ int main() {
         }  
    }
   
-//   for(int i=0; i<n; i++){
-//     int y=0;
-//          for(int j=0; j<r ; j++){
-//             if(arr[j] == copy[i]){
-//                 y++;
-//             }
-//      }
-//      printf("%d %d \n", copy[i] , y);
-//      }
+  for(int i=0; i<n; i++){
+    int y=0;
+         for(int j=0; j<r ; j++){
+            if(arr[j] == copy[i]){
+                y++;
+            }
+     }
+     printf("%d %d \n", copy[i] , y);
+     }
 
 
 
