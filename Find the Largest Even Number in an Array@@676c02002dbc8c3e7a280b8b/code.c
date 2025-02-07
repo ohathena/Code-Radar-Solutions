@@ -12,13 +12,12 @@ int main() {
     for(int j=0 ; j<c ; j++){ 
         if(ar[j] > max && ar[j]%2==0){
             max = ar[j];
-            tu++;
-            
+            tu++;   
         }
         
     }
     if(tu==0){
-        return -1;
+        printf("%d" , -1);
     }
     printf("%d",  max);
  
