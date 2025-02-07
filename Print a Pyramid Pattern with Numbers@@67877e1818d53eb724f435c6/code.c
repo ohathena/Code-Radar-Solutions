@@ -5,15 +5,13 @@ int main() {
     scanf("%d" , &n);
     for(int i=1 ; i<=n ; i++){
         for(int j =1 ; j<=n-i ; j++){  
-            //printf("");
+            printf("");
         }
         for(int k=1 ; k<=(2*i-1) ; k++){
-            if(k>=i){
-                break;
-            }
-            else{
-            printf("%d " , k);
-            }
+            if(k<=i){
+                
+            printf("%d " , k);}
+            
         }
         printf("\n");
     }
