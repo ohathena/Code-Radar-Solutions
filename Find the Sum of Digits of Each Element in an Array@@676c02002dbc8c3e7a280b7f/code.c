@@ -9,8 +9,11 @@ int main() {
         scanf("%d" , &arr[i]);
      }
      for(int i=0; i<n ; i++){
-        int sum = 0;
+       int sum = 0;
        int num = arr[i];
+       if(num<0){
+        num= num*(-1);
+       }
        while(num>0){
         int y = num%10;
         sum+=y;
