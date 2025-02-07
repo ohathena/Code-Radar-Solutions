@@ -9,9 +9,9 @@ int main() {
         scanf("%d" , &ar[i]);
     }
      for(int i=0; i<n ; i++){
-    //     if(ar[i] == 2 || ar[i] == 3){
-    //         c++;
-    //     }
+        if(ar[i] == 2 || ar[i] == 3){
+            c++;
+        }
     //     else if(ar[i]==0 || ar[i]==1){
     //         continue,
     //     }
