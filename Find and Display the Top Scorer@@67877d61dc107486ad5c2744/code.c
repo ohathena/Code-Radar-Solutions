@@ -4,7 +4,7 @@ void st(int roll, char name[], float marks , int i){
     int  troll;
     char tname[100];
      if(marks > max){
-    //     max = marks;
+         max = marks;
     //     troll = roll;
     //     tname = name;   
      }
