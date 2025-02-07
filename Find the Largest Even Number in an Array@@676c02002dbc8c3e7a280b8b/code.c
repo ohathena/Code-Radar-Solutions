@@ -12,7 +12,7 @@ int main() {
     for(int j=0 ; j<c ; j++){ 
         if(ar[j] > max && ar[j]%2==0){
             max = ar[j];
-            tu++;   
+            ++tu;   
         }
         
     }
