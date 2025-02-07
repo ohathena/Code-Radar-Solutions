@@ -22,7 +22,7 @@ int main() {
         }
     }
 
-    return secondLargest;
+    return max;
 
     return 0;
 }
