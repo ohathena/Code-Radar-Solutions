@@ -13,17 +13,17 @@ int main() {
     }
     int r = sizeof(arr);
     
-//     for (int i = 0; i < n; i++) {
-//         for (int j = i + 1; j < n; j++) {
-//             if (copy[i] == copy[j]) {
-//                 for (int k = j; k < n - 1; k++) {
-//                     copy[k] = copy[k + 1];
-//                 }
-//                 n--; 
-//                 j--;
-//             }
-//         }
-//     }
+    for (int i = 0; i < n; i++) {
+        for (int j = i + 1; j < n; j++) {
+            if (copy[i] == copy[j]) {
+                for (int k = j; k < n - 1; k++) {
+                    copy[k] = copy[k + 1];
+                }
+                n--; 
+                j--;
+            }
+        }
+    }
 
 //     int temp;
 //     for(int i=0; i<r-1; i++){
