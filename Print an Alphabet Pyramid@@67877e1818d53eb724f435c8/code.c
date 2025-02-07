@@ -7,6 +7,7 @@ int main() {
         int c =65;
         for(int j=0 ; j<n ;j++){
             printf("%c " , (char)c );
+            c++;
         }
         printf("\n");
     }
