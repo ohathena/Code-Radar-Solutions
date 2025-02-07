@@ -7,13 +7,18 @@ int main() {
     for(int i=0 ; i<c ; i++){
         scanf("%d" , &ar[i]);
     }
-
-    int max = -1;
-    for(int j=0 ; j<c ; j++){
+ in tu =0
+    int max = ar[0];
+    for(int j=0 ; j<c ; j++){ 
         if(ar[j] > max && ar[j]%2==0){
             max = ar[j];
+            tu++;
+            
         }
         
+    }
+    if(tu==0){
+        return -1;
     }
     printf("%d",  max);
  
