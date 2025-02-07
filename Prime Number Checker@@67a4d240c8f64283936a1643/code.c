@@ -1,6 +1,6 @@
 #include <stdio.h>
 int isPrime(num){
-    int c=0
+    int c=0;
  if(num==0 || num==1){
 return 0;
  }
@@ -21,3 +21,5 @@ return 0;
     }
  }
 }
+
+
