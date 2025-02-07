@@ -17,7 +17,7 @@ int main() {
         }
         else{
             int t=0;
-            for(int j=2; j<n ; j++){
+            for(int j=2; j<i ; j++){
                 if(ar[i]%j==0){
                     t++;
                 }
