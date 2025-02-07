@@ -21,17 +21,17 @@ int main() {
         printf("%d " , arr[i]);
     }
    
-//    int y=0;
-//    for(int i=0; i<n-1 ; i++){
+   int y=1;
+    for(int i=1; i<n ; i++){
     
-//         if(arr[i]==arr[i+1]){
-//            y++;
-//         }
-//         else{
-//             printf("%d %d \n" , arr[i] , y);
-//              y=0;
-//         }
-//     }
+        if(arr[i]==arr[i-1]){
+           y++;
+        }
+        else{
+             printf("%d %d \n" , arr[i-1] , y);
+              y=0;
+         }
+     }
 
    
     return 0;
