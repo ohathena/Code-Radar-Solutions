@@ -7,8 +7,8 @@ int main() {
     for(int i=0; i<n ; i++){
         scanf("%d" , &arr[i]);
     }
-    if(n< 2){
-        return -1;
+    if(n < 2){
+        printf("%d" , -1); 
     }
     int max = -1;
     int temp = arr[0];
