@@ -13,7 +13,11 @@ int main() {
     for(int i=0; i<n ; i++){
         if(num == arr[i]){
                   printf("%d" , i );
+                  c++;
         }
+    }
+    if(c==0){
+        printf("-1");
     }
   
     
