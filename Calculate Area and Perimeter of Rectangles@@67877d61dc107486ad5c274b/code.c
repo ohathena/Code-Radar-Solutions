@@ -17,7 +17,7 @@ int main() {
          scanf("%d" , &breath);
          area= ar(length , breath);
          p= pr(length , breath);
-         printf("Rectangle %d: Area = %.2f, Perimeter = %.2f \n"  , area , p);
+         printf("Rectangle %d: Area = %.2f, Perimeter = %.2f \n" , i  , area , p);
 
      }
     
