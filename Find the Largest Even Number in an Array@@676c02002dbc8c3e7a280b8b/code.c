@@ -16,6 +16,7 @@ int main() {
         }
         
     }
+    printf("%d" , tu);
     // if(tu==0){
     //     printf("%d" , -1);
     // }
