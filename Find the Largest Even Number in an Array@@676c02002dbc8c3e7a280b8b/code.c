@@ -18,8 +18,7 @@ int main() {
         }
         
     }
-
-     if(tu== n){
+     if(tu==c){
         return -1;
      }
     printf("%d",  max);
