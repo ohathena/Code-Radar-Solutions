@@ -1,10 +1,10 @@
 #include <stdio.h>
-float ar(length , breath){
-   //return (length*breath);
-}
-float pr(length , breath){
-   // return (2(length+breath));
-}
+// float ar(length , breath){
+//    //return (length*breath);
+// }
+// float pr(length , breath){
+//    // return (2(length+breath));
+// }
 int main() {
     int n, length , breath;
     float area , p;
