@@ -10,7 +10,7 @@ int main() {
     for(int i =0 ; i<n ; i++){
         scanf("%d" , &roll);
         scanf("%s" , &name);
-        scanf("%f" , &marks);
+        scanf("%.2f" , &marks);
         st(roll , name , marks);
 
     }
