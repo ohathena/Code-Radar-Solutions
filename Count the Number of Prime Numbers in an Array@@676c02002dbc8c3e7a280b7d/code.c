@@ -31,7 +31,7 @@ int main() {
 
      int d=0;
         for(int i=2 ; i<ar[i] ; i++){
-            if(a[r]%i==0){
+            if(ar[]%i==0){
                 d++;
             }
         }
