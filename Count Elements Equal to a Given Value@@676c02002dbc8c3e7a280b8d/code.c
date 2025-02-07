@@ -14,7 +14,7 @@ int main() {
                 c++;
         }
     }
-    printf("%d" ,(c==0)? c : c+1);
+    printf("%d" , c );
     
     return 0;
 }
