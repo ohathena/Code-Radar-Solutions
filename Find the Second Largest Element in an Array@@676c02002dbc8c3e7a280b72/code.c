@@ -16,8 +16,11 @@ int main() {
         }
     }
     if(max ==0){
-        return -1;
+        printf("%d" , -1);
     }
-  printf("%d" , max);
+    else{
+    printf("%d" , max);
+    }
+ 
     return 0;
 }
