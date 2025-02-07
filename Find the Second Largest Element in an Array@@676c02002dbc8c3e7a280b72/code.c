@@ -22,7 +22,7 @@ int main() {
         }
     }
 
-    return max;
+    printf("%d" , max);
 
     return 0;
 }
