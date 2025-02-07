@@ -3,11 +3,11 @@ void st(int roll, char name[], float marks , int i){
     float max = 0.00;
     int  troll;
     char tname[100];
-    // if(marks > max){
+     if(marks > max){
     //     max = marks;
     //     troll = roll;
     //     tname = name;   
-    // }
+     }
     // if(i==n-1){
     // printf("Top Scorer: Roll Number: %d, Name: %s, Marks: %.2f \n" , troll , tname , max);
     // }
