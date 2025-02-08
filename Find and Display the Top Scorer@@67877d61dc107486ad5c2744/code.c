@@ -1,31 +1,34 @@
 #include <stdio.h>
 #include <string.h>
-void st(int roll, const char *name, float marks , int n ,int i){
-    float max = 0.00;
-    int  troll;
-    char *tname;
-     if(marks > max){
-         max = marks;
-         troll = roll;
-        strncpy(tname , name);   
-     }
-      if(i==n-1){
-      printf("Top Scorer: Roll Number: %d, Name: %s, Marks: %.2f \n" , troll , tname , max);
-      }
 
-}
-int main() {
-    int n, roll;
-    char *name;
+struct Student {
+    char name[50];
+    int roll;
     float marks;
-    scanf("%d" , &n);
-    for(int i =0 ; i<n ; i++){
-        scanf("%d" , &roll);
-        scanf("%s" , &name);
-        scanf("%f" , &marks);
-        st(roll , name , marks ,n , i);
+};
 
+int main() {
+    int n;
+    scanf("%d" , &n);
+    struct Student students[n], topStudent;
+    int i;
+    for (i = 0; i < n; i++) {
+        scanf("%d", &students[i].roll);
+        scanf(" %[^\n]", students[i].name); 
+        scanf("%f", &students[i].marks);
     }
-    
+
+    topStudent = students[0];
+
+    for (i = 1; i < n; i++) {
+        if (students[i].marks > topStudent.marks) {
+            topStudent = students[i];
+        }
+    }
+ printf("Top Scorer: Roll Number: %d, Name: %s, Marks: %.2f \n" , topStudent.roll , topStudent.name , topStudent.marks);
+
     return 0;
 }
+
+
+
