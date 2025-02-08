@@ -16,7 +16,16 @@ int main() {
         scanf("%d", &students[i].roll);
         
         scanf("%f", &students[i].marks);
-       scanf(" %[^\n]", students[i].name);
+       getchar(); // Consume newline left in buffer
+
+        printf("Name: ");
+        fgets(students[i].name, sizeof(students[i].name), stdin);
+
+        // Remove trailing newline from fgets()
+        size_t len = strlen(students[i].name);
+        if (len > 0 && students[i].name[len - 1] == '\n') {
+            students[i].name[len - 1] = '\0';
+        }
     }
 
     topStudent = students[0];
