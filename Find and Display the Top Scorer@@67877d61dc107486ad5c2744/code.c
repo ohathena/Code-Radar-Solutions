@@ -9,16 +9,23 @@ struct Student {
 
 int main() {
     int n;
-    scanf("%d" , &n);
+    scanf("%d", &n);
+
     struct Student students[n], topStudent;
     int i;
+
     for (i = 0; i < n; i++) {
+     
+        
+    
         scanf("%d", &students[i].roll);
         
+    
         scanf("%f", &students[i].marks);
-       getchar(); // Consume newline left in buffer
+        
+        getchar(); // Consume newline left in buffer
 
-        printf("Name: ");
+  
         fgets(students[i].name, sizeof(students[i].name), stdin);
 
         // Remove trailing newline from fgets()
@@ -28,19 +35,21 @@ int main() {
         }
     }
 
+    // Assume first student has highest marks
     topStudent = students[0];
 
+    // Find the student with highest marks
     for (i = 1; i < n; i++) {
         if (students[i].marks > topStudent.marks) {
             topStudent = students[i];
         }
     }
- printf("Top Scorer: " );
-  printf("Roll Number: %d, ", topStudent.roll);
+
+    // Display top scorer
+    printf("\nTop Scorer:\n");
+    printf("Roll Number: %d, ", topStudent.roll);
     printf("Name: %s, ", topStudent.name);
-    printf("Marks: %.2f ", topStudent.marks);
+    printf("Marks: %.2f\n", topStudent.marks);
+
     return 0;
 }
-
-
-
