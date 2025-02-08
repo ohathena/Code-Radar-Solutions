@@ -23,7 +23,7 @@ int main() {
 
 
 
-     for (i = 0; i <= n; i++) {
+     for (i = 0; i < n; i++) {
         if (students[i].marks >= 85) {
                printf("Roll Number: %d, Name: %s, Grade: A\n" ,students[i].roll, students[i].name );
         }
@@ -31,7 +31,7 @@ int main() {
             printf("Roll Number: %d, Name: %s, Grade: B\n" ,students[i].roll, students[i].name );
         }
         else if(students[i].marks <70){
-          printf("Roll Number: %d, Name: %s, Grade: C" ,students[i].roll, students[i].name );
+          printf("Roll Number: %d, Name: %s, Grade: C\n" ,students[i].roll, students[i].name );
          }
      }
 
