@@ -25,8 +25,10 @@ int main() {
             topStudent = students[i];
         }
     }
- printf("Top Scorer: Roll Number: %d, Name: %s, Marks: %.2f \n" , topStudent.roll , topStudent.name , topStudent.marks);
-
+ printf("Top Scorer: " );
+  printf("Roll No: %d, ", topStudent.roll);
+    printf("Name: %s, ", topStudent.name);
+    printf("Marks: %.2f, ", topStudent.marks);
     return 0;
 }
 
