@@ -31,8 +31,7 @@ int main() {
             printf("Roll Number: %d, Name: %s, Grade: B\n" ,students[i].roll, students[i].name );
          }
         else{
-            // printf("Roll Number: %d, Name: %s, Grade: C\n" ,students[i].roll, students[i].name ); 
-            printf("Roll Number: %d, Name: %s, Grade: B\n" ,students[i].roll, students[i].name );
+            // printf("Roll Number: %d, Name: %s, Grade: C\n" ,students[i].roll, students[i].name );
          }
      }
 
