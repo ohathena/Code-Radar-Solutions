@@ -7,7 +7,7 @@ void st(int roll, const char *name, float marks , int n ,int i){
      if(marks > max){
          max = marks;
          troll = roll;
-        // strncpy(tname , name);   
+        strncpy(tname , name);   
      }
       if(i==n-1){
       printf("Top Scorer: Roll Number: %d, Name: %s, Marks: %.2f \n" , troll , tname , max);
