@@ -14,8 +14,9 @@ int main() {
     int i;
     for (i = 0; i < n; i++) {
         scanf("%d", &students[i].roll);
-        scanf(" %[^\n]", students[i].name); 
+        
         scanf("%f", &students[i].marks);
+         scanf(" %[^\n]", students[i].name);
     }
 
     topStudent = students[0];
