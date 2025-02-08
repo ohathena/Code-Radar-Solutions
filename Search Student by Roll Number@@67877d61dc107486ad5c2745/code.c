@@ -21,17 +21,25 @@ int main() {
         scanf("%f", &students[i].marks);
     }
     scanf("%d" , &w);
-
+    int c = 0;
 
     for (i = 1; i < n; i++) {
         if (students[i].roll == w) {
             theStudent = students[i];
+            c++;
+
         }
     }
+    if(c==0){
+        printf("Student not found");
+    }
+    else{
 
     printf("Roll Number: %d, ", theStudent.roll);
     printf("Name: %s, ", theStudent.name);
     printf("Marks: %.2f \n", theStudent.marks);
+    }
+
 
     return 0;
 }
