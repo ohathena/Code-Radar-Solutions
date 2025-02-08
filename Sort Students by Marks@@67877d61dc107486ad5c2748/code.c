@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <string.h>
-#include <stdlib.h>
 
 struct Student {
     char name[50];
@@ -8,34 +7,27 @@ struct Student {
     float marks;
 };
 
-
-int compareMarks(const void *a, const void *b) {
-    struct Student *sA = (struct Student *)a;
-    struct Student *sB = (struct Student *)b;
-  
-    if (sB->marks > sA->marks) {
-        return 1; 
-    } else if (sB->marks < sA->marks) {
-        return -1; 
-    } else {
-        return 0; 
-    }
-}
-
 int main() {
     int n;
     scanf("%d", &n);
 
     struct Student students[n];
-    int i;
+    int i, j;
 
     for (i = 0; i < n; i++) {
         scanf("%d", &students[i].roll);
         scanf("%f", &students[i].marks);
         scanf("%s", students[i].name);  
     }
-
-    qsort(students, n, sizeof(struct Student), compareMarks);
+    for (i = 0; i < n - 1; i++) {
+        for (j = 0; j < n - i - 1; j++) {
+            if (students[j].marks < students[j + 1].marks) {
+                struct Student temp = students[j];
+                students[j] = students[j + 1];
+                students[j + 1] = temp;
+            }
+        }
+    }
 
     for (i = 0; i < n; i++) {
         printf("Roll Number: %d, Name: %s, Marks: %.2f\n", students[i].roll, students[i].name, students[i].marks);
