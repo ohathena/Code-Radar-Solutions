@@ -16,8 +16,9 @@ int main() {
 
     for (i = 0; i < n; i++) {
         scanf("%d", &students[i].roll);
+           scanf("%s", students[i].name);
         scanf("%f", &students[i].marks);
-        scanf("%s", students[i].name);  
+       
     }
 
  
