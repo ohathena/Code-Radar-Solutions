@@ -31,7 +31,7 @@ int main() {
 
     printf("Roll Number: %d, ", theStudent.roll);
     printf("Name: %s, ", theStudent.name);
-    printf("Marks: %.2f\n", theStudent.marks);
+    printf("Marks: %.2f \n", theStudent.marks);
 
     return 0;
 }
