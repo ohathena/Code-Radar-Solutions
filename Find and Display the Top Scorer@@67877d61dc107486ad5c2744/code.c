@@ -16,7 +16,7 @@ int main() {
         scanf("%d", &students[i].roll);
         
         scanf("%f", &students[i].marks);
-         scanf(" %[^\n]", students[i].name);
+       scanf(" %[^\n]", students[i].name);
     }
 
     topStudent = students[0];
@@ -27,7 +27,7 @@ int main() {
         }
     }
  printf("Top Scorer: " );
-  printf("Roll No: %d, ", topStudent.roll);
+  printf("Roll Number: %d, ", topStudent.roll);
     printf("Name: %s, ", topStudent.name);
     printf("Marks: %.2f ", topStudent.marks);
     return 0;
