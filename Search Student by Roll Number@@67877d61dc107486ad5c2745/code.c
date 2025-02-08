@@ -23,7 +23,7 @@ int main() {
     scanf("%d" , &w);
     int c = 0;
 
-    for (i = 1; i < n; i++) {
+    for (i = 0; i <= n; i++) {
         if (students[i].roll == w) {
             theStudent = students[i];
             c++;
