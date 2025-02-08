@@ -16,7 +16,7 @@ int main() {
 
     for (i = 0; i < n; i++) {
         scanf("%d", &students[i].roll);
-           scanf("%s", students[i].name);
+        scanf("%s", students[i].name);
         scanf("%f", &students[i].marks);
        
     }
@@ -30,7 +30,7 @@ int main() {
         }
     }
 
-    // Display top scorer
+
     printf("Top Scorer: ");
     printf("Roll Number: %d, ", topStudent.roll);
     printf("Name: %s, ", topStudent.name);
