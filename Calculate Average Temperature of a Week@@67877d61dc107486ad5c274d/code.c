@@ -4,8 +4,8 @@ int main() {
     int  temp;
     char name[100];
     float sum = 0;
-    for(int i =0 ; i<n ; i++){
-          scanf("%s" , &name);
+    for(int i =0 ; i<7 ; i++){
+        scanf("%s" , &name);
         scanf("%d" , &temp);
         sum+= temp;
     }
