@@ -7,8 +7,7 @@ int main() {
     for(int i =0 ; i<n ; i++){
           scanf("%s" , &name);
         scanf("%d" , &temp);
-      
-        sum+= marks;
+        sum+= temp;
     }
     float av = sum/7;
     printf("Average Temperature: %.2f" , av);
