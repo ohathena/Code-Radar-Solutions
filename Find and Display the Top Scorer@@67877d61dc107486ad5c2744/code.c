@@ -17,15 +17,10 @@ int main() {
     for (i = 0; i < n; i++) {
         scanf("%d", &students[i].roll);
         scanf("%f", &students[i].marks);
-        
-        while (getchar() != '\n');
-        fgets(students[i].name, sizeof(students[i].name), stdin);
-        size_t len = strlen(students[i].name);
-        if (len > 0 && students[i].name[len - 1] == '\n') {
-            students[i].name[len - 1] = '\0';
-        }
+        scanf("%s", students[i].name);  
     }
 
+ 
     topStudent = students[0];
 
     for (i = 1; i < n; i++) {
@@ -34,7 +29,8 @@ int main() {
         }
     }
 
-    printf("Top Scorer:");
+    // Display top scorer
+    printf("Top Scorer: ");
     printf("Roll Number: %d, ", topStudent.roll);
     printf("Name: %s, ", topStudent.name);
     printf("Marks: %.2f\n", topStudent.marks);
