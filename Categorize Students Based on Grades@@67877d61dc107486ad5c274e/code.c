@@ -8,18 +8,18 @@ struct Student {
 };
 
 int main() {
-    // int n;
-    // scanf("%d", &n);
+    int n;
+    scanf("%d", &n);
 
-    // struct Student students[n];
-    // int i;
+    struct Student students[n];
+    int i;
 
 
-    // for (i = 0; i < n; i++) {
-    //     scanf("%d", &students[i].roll);
-    //     scanf("%s", students[i].name);
-    //     scanf("%f", &students[i].marks);
-    // }
+    for (i = 0; i < n; i++) {
+        scanf("%d", &students[i].roll);
+        scanf("%s", students[i].name);
+        scanf("%f", &students[i].marks);
+    }
 
 
 
