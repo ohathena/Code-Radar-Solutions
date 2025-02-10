@@ -20,7 +20,7 @@ int main() {
     for (i = 1; i <= n; i++) {
         scanf("%s", &students[i].roll);
         scanf("%s", &students[i].name);
-        scanf("%f", &students[i].salary);
+        scanf("%d", &students[i].salary);
         if (students[i].name == "Car") {
             x+= students[i].salary;
         }
