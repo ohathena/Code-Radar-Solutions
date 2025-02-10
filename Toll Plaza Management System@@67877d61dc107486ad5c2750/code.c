@@ -27,7 +27,7 @@ int main() {
         else if(students[i].name=="Truck"){
             y+= students[i].salary;
         }
-        else{
+        else if(students[i].name=="Bike"){
            z+= students[i].salary;
         }
      
