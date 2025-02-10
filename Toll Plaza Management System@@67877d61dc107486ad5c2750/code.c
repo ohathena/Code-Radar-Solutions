@@ -21,7 +21,7 @@ int main() {
         scanf("%s", &students[i].roll);
         scanf("%s", &students[i].name);
         scanf("%d", &students[i].salary);
-        if (students[i].name == 'Car') {
+        if (students[i].name == "Car") {
             x+= students[i].salary;
         }
         // else if(students[i].name=="Truck"){
