@@ -33,7 +33,7 @@ int main() {
      
 
     }
-       printf("Cars: %.2f, Trucks: %.2f, Bikes: %.2f\n", x ,y,z );
+    //    printf("Cars: %.2f, Trucks: %.2f, Bikes: %.2f\n", x ,y,z );
      
 
     return 0;
