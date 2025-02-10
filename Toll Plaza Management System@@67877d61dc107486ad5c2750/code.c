@@ -15,7 +15,7 @@ int main() {
     int i;
     float x = 0.00;
     float y = 0.00;
-    float x = 0.00;
+    float z = 0.00;
 
     for (i = 1; i <= n; i++) {
         scanf("%s", &students[i].roll);
