@@ -21,15 +21,15 @@ int main() {
         scanf("%s", &students[i].roll);
         scanf("%s", &students[i].name);
         scanf("%f", &students[i].salary);
-        if (students[i].name == "Car") {
-            x+= students[i].salary;
-        }
-        else if(students[i].name=="Truck"){
-            y+= students[i].salary;
-        }
-        else if(students[i].name=="Bike"){
-           z+= students[i].salary;
-        }
+        // if (students[i].name == "Car") {
+        //     x+= students[i].salary;
+        // }
+        // else if(students[i].name=="Truck"){
+        //     y+= students[i].salary;
+        // }
+        // else if(students[i].name=="Bike"){
+        //    z+= students[i].salary;
+        // }
      
 
     }
