@@ -3,7 +3,7 @@
 
 struct Student {
     char name[50];
-    int roll;
+    char roll[200];
     float salary;
 };
 
@@ -13,9 +13,9 @@ int main() {
 
     struct Student students[n], theStudent;
     int i;
-    float x = 0.00;
-    float y = 0.00;
-    float x = 0.00;
+    // float x = 0.00;
+    // float y = 0.00;
+    // float x = 0.00;
 
     for (i = 1; i <= n; i++) {
         scanf("%s", &students[i].roll);
