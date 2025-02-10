@@ -14,10 +14,10 @@ int main() {
         scanf("%d" , &arr[i]);
     }
     for(int i=0; i<=n-1 ; i++){
-         if(i==n-1 && c=0){
-             printf("-1");
-              return 0;
-            }
+        //  if(i==n-1 && c=0){
+        //      printf("-1");
+        //       return 0;
+        //     }
         for(int j=i+1; j<n ; j++){
            
              if(arr[i]==arr[j]){
