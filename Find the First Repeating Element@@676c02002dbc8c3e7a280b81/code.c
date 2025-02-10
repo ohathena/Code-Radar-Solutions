@@ -13,10 +13,10 @@ int main() {
     for(int i=0; i<n ; i++){
         scanf("%d" , &arr[i]);
     }
-    for(int i=0; i<n-1 ; i++){
-         if(i==n-2 && c=0){
-                  printf("-1");
-        return 0;
+    for(int i=0; i<=n-1 ; i++){
+         if(i==n-1 && c=0){
+             printf("-1");
+              return 0;
             }
         for(int j=i+1; j<n ; j++){
            
