@@ -19,7 +19,7 @@ int main() {
         
     }
        if(c==0){
-            return -1;
+            printf("-1");
         }
    
     return 0;
