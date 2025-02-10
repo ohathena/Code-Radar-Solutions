@@ -14,8 +14,13 @@ int main() {
         scanf("%d" , &arr[i]);
     }
     for(int i=0; i<n-1 ; i++){
+         if(i==n-2 && c=0){
+                  printf("-1");
+        return 0;
+            }
         for(int j=i+1; j<n ; j++){
-             if( arr[i]==arr[j]){
+           
+             if(arr[i]==arr[j]){
                  printf("%d" , arr[j]);
                  c+=1;
                return 0;
