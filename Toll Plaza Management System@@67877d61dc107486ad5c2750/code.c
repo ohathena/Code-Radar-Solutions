@@ -17,20 +17,20 @@ int main() {
     float y = 0.00;
     float z = 0.00;
 
-    for (i = 1; i <= n; i++) {
+    for (i = 0; i < n; i++) {
         scanf("%s", &students[i].roll);
         scanf("%s", &students[i].name);
         scanf("%d", &students[i].salary);
-        if (students[i].name == "Car") {
-            printf("Hello");
+        if (strcmp(students[i].name, "Car") == 0) {
+        
             x+= students[i].salary;
         }
-        // else if(students[i].name=="Truck"){
-        //     y+= students[i].salary;
-        // }
-        // else if(students[i].name=="Bike"){
-        //    z+= students[i].salary;
-        // }
+        else if (strcmp(students[i].name, "Truck") == 0){
+            y+= students[i].salary;
+        }
+        else if (strcmp(students[i].name, "Bike") == 0){
+           z+= students[i].salary;
+        }
      
 
     }
