@@ -25,12 +25,10 @@ int main() {
         else{
             b= students[i].salary*(0.05);
         }
-        printf("Employee ID: %d, Name: %s, Bonus: %.2f\n", &students[i].roll ,students[i].name,b );
+        printf("Employee ID: %d, Name: %s, Bonus: %.2f\n", students[i].roll ,students[i].name,b );
 
     }
-
-    
-        
+     
 
     return 0;
 }
