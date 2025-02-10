@@ -22,7 +22,7 @@ int main() {
         scanf("%s", &students[i].name);
         scanf("%d", &students[i].salary);
         if (strcmp(students[i].name, "Car") == 0) {
-        
+           printf("Hello");
             x+= students[i].salary;
         }
         else if (strcmp(students[i].name, "Truck") == 0){
