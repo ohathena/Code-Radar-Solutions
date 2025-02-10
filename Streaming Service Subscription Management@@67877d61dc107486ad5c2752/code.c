@@ -27,11 +27,11 @@ int main() {
             x+= students[i].salary;
         }
         else if (strcmp(students[i].name, "Premium") == 0){
-            int p++;
+             p++;
             y+= students[i].salary;
         }
         else if (strcmp(students[i].name, "Standard") == 0){
-            int s++;
+             s++;
            z+= students[i].salary;
         }
      
