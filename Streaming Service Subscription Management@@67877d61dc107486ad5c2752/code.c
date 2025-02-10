@@ -27,17 +27,17 @@ int main() {
             x+= students[i].salary;
         }
         else if (strcmp(students[i].name, "Premium") == 0){
-             p++;
+            p++;
             y+= students[i].salary;
         }
         else if (strcmp(students[i].name, "Standard") == 0){
-             s++;
+            s++;
            z+= students[i].salary;
         }
      
 
     }
-        printf("Basic: %d Users, Revenue: %.2f, Standard: %d Users, Revenue: %.2f, Premium: %d Users, Revenue: %.2f",b, x, p,y,s,z );
+        printf("Basic: %d Users, Revenue: %.2f; Standard: %d Users, Revenue: %.2f; Premium: %d Users, Revenue: %.2f",b, x, p,y,s,z );
      
 
     return 0;
