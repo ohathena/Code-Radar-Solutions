@@ -15,6 +15,8 @@ int main() {
     }
     for(int i=0; i<n-1 ; i++){
         for(int j=i+1; j<n ; i++){
+            printf("%d  " , arr[i]);
+            printf("%d /n" , arr[j]);
              if( arr[i]==arr[j]){
                  printf("%d" , arr[j]);
                  c+=1;
