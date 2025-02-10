@@ -17,7 +17,7 @@ int main() {
 
     for (i = 1; i <= n; i++) {
         scanf("%d", &students[i].roll);
-        scanf("%s", students[i].name);
+        scanf("%s", &students[i].name);
         scanf("%f", &students[i].salary);
           if (students[i].salary < 50000) {
             b= students[i].salary*(0.1);
