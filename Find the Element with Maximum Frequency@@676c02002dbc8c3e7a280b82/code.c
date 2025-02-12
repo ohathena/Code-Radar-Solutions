@@ -35,6 +35,7 @@ int main() {
             }
         }  
    }
+   int freq[n];
   int max;
   for(int i=0; i<n; i++){
     int y=0;
@@ -44,6 +45,8 @@ int main() {
             }
             printf("%d %d %d done ", arr[j] , copy[i] , y);
      }
+     freq[i] = y;
+     
     //  if(i==0){
     //     max = arr[i];
     //  }
@@ -52,6 +55,14 @@ int main() {
     //         max = arr[i];
     //     }
     //  }
+     }
+
+     for(int i=0; i<n; i++){
+          printf("%d ", copy[i]);
+     }
+     printf("\n");
+     for(int i=0; i<n; i++){
+          printf("%d ", freq[i]);
      }
     // printf("%d" , max );
 
