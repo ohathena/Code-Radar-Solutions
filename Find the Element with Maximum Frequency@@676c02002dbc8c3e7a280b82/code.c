@@ -61,13 +61,24 @@ int main() {
     //       printf("%d ", copy[i]);
     //  }
     //  printf("\n");
+    int mf;
      for(int i=0; i<n; i++){
         if(freq[i] > max){
             max = copy[i];
+            mf = freq[i];
+        }
+        //   printf("%d ", freq[i]);
+     }
+      for(int i=0; i<n; i++){
+        if(freq[i]== mf){
+            max = copy[i];
+            printf("%d" , max );
+            return 0;
         }
         //   printf("%d ", freq[i]);
      }
      printf("%d" , max);
+ 
 
     // printf("%d" , max );
 
