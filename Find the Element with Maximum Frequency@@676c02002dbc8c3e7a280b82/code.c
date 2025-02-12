@@ -42,7 +42,7 @@ int main() {
             if(arr[j] == copy[i]){
                 y++;
             }
-            printf("%d %d %d", arr[j] , copy[i] , y)
+            printf("%d %d %d", arr[j] , copy[i] , y);
      }
     //  if(i==0){
     //     max = arr[i];
