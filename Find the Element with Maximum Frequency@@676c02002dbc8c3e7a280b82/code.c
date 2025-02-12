@@ -36,7 +36,7 @@ int main() {
         }  
    }
    int freq[n];
-  int max;
+  int max=0;
   for(int i=0; i<n; i++){
     int y=0;
          for(int j=0; j<r ; j++){
