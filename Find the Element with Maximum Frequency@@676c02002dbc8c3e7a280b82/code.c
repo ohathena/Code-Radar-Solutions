@@ -62,8 +62,12 @@ int main() {
      }
      printf("\n");
      for(int i=0; i<n; i++){
+        if(freq[i] > max){
+            max = copy[i];
+        }
           printf("%d ", freq[i]);
      }
+
     // printf("%d" , max );
 
 
