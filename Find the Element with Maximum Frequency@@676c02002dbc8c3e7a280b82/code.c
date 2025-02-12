@@ -77,7 +77,7 @@ int main() {
         }
         //   printf("%d ", freq[i]);
      }
-     printf("%d heh" , max);
+    //  printf("%d " , max);
  
 
     // printf("%d" , max );
