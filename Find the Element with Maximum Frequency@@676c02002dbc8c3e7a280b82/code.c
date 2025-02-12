@@ -42,47 +42,22 @@ int main() {
             if(arr[j] == copy[i]){
                 y++;
             }
+            printf("%d %d %d", arr[j] , copy[i] , y)
      }
-     if(i==0){
-        max = arr[i];
+    //  if(i==0){
+    //     max = arr[i];
+    //  }
+    //  else{
+    //     if(max < y){
+    //         max = arr[i];
+    //     }
+    //  }
      }
-     else{
-        if(max < y){
-            max = arr[i];
-        }
-     }
-     }
-     printf("%d" , max );
+    // printf("%d" , max );
 
 
 
 
-
-    // for(int i=0; i<n ; i++){
-    //     printf("%d " , arr[i]);
-    // }
-   
-//    int y=1;
-//     for(int i=0; i<=n-1 ; i++){
-//      if(i<n-1){
-//         if(arr[i] != arr[i+1]){
-//             printf("%d %d \n", arr[i] , y);
-//             y =1;
-//         }
-//         else{
-//             y++;
-//         }
-//      } 
-//      else{
-//         if(arr[i] == arr[i-1]){
-//             // y+=1;
-//             printf("%d %d \n", arr[i] , y);
-//         }
-//         else{
-//             printf("%d %d \n", arr[i] , y);
-//         }
-//      }
-//      }
 
    
     return 0;
