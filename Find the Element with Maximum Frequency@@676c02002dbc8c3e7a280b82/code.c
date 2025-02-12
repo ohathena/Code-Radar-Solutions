@@ -67,6 +67,7 @@ int main() {
         }
         //   printf("%d ", freq[i]);
      }
+     printf("%d" , max);
 
     // printf("%d" , max );
 
