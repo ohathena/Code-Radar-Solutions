@@ -43,7 +43,7 @@ int main() {
             if(arr[j] == copy[i]){
                 y++;
             }
-            printf("%d %d %d done ", arr[j] , copy[i] , y);
+           // printf("%d %d %d done ", arr[j] , copy[i] , y);
      }
      freq[i] = y;
      
