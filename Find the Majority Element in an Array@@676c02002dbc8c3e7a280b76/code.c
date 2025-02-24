@@ -10,5 +10,12 @@ int main(){
         printf("%d" , arr[n]);
         return 0;
     }
+    int count = 0;
+    for(int i=0 ; i<n ; i++){
+         for(int j=0 ; i<n ; i++){
+        
+    }
+    }
+
     return 0;
 }
