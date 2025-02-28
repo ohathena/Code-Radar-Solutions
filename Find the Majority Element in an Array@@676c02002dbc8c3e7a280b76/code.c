@@ -16,8 +16,14 @@ int main(){
         return 0;
         }
         else{
-        printf("%d" , arr[0]);
+        printf("%d" , arr[1]);
         return 0;
+        }
+    }
+    if(n==3){
+        if(arr[0]!=arr[1] || arr[0]!=arr[2]){
+               printf("%d" , -1);
+               return 0;
         }
     }
     int count = 0;
