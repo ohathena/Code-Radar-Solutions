@@ -26,12 +26,20 @@ int main(){
                return 0;
         }
     }
-    int count = 0;
-    for(int i=0 ; i<n ; i++){
-         for(int j=0 ; i<n ; i++){
-         
+    int max=0;
+  int a;
+    for(int i=0 ; i<n-1 ; i++){
+          int count = 0;
+         for(int j=i+1 ; i<n ; i++){
+         if(arr[i]==arr[j]){
+            count++;
+         }
+         if(count>max){
+            max = count;
+            a = arr[i];
+         }
     }
     }
-
+   printf("%d" , a);
     return 0;
 }
