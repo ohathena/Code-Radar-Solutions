@@ -9,7 +9,7 @@ int main() {
         scanf("%d" , &arr[i]);
     }
     int temp;
-int max = arr[0];
+
     for(int i=0 ; i<n ; i++){
         if(arr[i]>arr[i+1]){
          temp = arr[i];
@@ -18,14 +18,18 @@ int max = arr[0];
         }
     }
 
-    int min = arr[0];
-    for(int i=0 ; i<n-1 ; i++){
-        if(arr[i] - arr[i+1] < min){
-           int min1 = arr[i];
-           int min2 = arr[i+1];
-        }
+for(int i=0 ; i<n ; i++){
+        printf("%d" , arr[i]);
     }
-    printf("%d %d" , min1 , min2);
+
+    // int min = arr[0];
+    // for(int i=0 ; i<n-1 ; i++){
+    //     if(arr[i] - arr[i+1] < min){
+    //        int min1 = arr[i];
+    //        int min2 = arr[i+1];
+    //     }
+    // }
+    // printf("%d %d" , min1 , min2);
 
     return 0;
 }
