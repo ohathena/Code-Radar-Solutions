@@ -9,7 +9,8 @@ int main(){
         scanf("%d" , &arr[i]);
     }
   if(n%2!=0){
-    printf("%d" , arr[n/2]);
+    int y = n/2;
+    printf("%d" , arr[y]);
   }
   else{
     for(int i=0; i<n ; i++){
