@@ -32,7 +32,7 @@ int main() {
      for(int i=0 ; i<n-1 ; i++){
         he = 0;
         he = arr[i+1] - arr[i];
-         printf("%d %d %d %d \n" , arr[i] , arr[i+1] , he , min);
+        //  printf("%d %d %d %d \n" , arr[i] , arr[i+1] , he , min);
          if( he < min){
             min1 = arr[i];
             min2 = arr[i+1];
