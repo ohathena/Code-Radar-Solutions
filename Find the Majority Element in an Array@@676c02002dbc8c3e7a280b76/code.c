@@ -27,7 +27,7 @@ int main(){
         }
     }
     int max=0;
-  int a=0;
+  int a=-1;
     for(int i=0 ; i<n-1 ; i++){
           int count = 0;
          for(int j=i+1 ; i<n ; i++){
