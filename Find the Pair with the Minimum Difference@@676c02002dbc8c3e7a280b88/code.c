@@ -26,11 +26,15 @@ int main() {
 //         printf("%d " , arr[i]);
 //     }
 
-     int min = arr[0];
+     int min = arr[n-1];
+     int he;
      for(int i=0 ; i<n-1 ; i++){
-         if(arr[i+1] - arr[i] < min){
+        he = 0;
+        he = arr[i+1] - arr[i];
+         if( he < min){
            int min1 = arr[i];
            int min2 = arr[i+1];
+           min = he
         }
     }
     printf("%d %d" , min1 , min2);
