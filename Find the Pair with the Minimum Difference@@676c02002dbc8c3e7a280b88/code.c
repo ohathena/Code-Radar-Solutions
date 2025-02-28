@@ -28,13 +28,14 @@ int main() {
 
      int min = arr[n-1];
      int he;
+     int min1 , min2;
      for(int i=0 ; i<n-1 ; i++){
         he = 0;
         he = arr[i+1] - arr[i];
          printf("%d %d %d %d \n" , arr[i] , arr[i+1] , he , min);
          if( he < min){
-           int min1 = arr[i];
-           int min2 = arr[i+1];
+            min1 = arr[i];
+            min2 = arr[i+1];
            min = he;
         }
     }
