@@ -28,7 +28,7 @@ int main() {
 
      int min = arr[n-1];
      int he;
-     int min1 , min2;
+
      for(int i=0 ; i<n-1 ; i++){
         he = 0;
         he = arr[i+1] - arr[i];
