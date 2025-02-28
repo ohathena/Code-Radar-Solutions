@@ -15,7 +15,8 @@ int main(){
   else{
     for(int i=0; i<n ; i++){
         sc+=arr[i];
-        printf("%d", sc/n);
+        
     }
+    printf("%d", sc/n);
   }
 }
