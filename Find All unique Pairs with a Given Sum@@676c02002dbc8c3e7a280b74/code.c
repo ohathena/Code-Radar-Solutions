@@ -13,7 +13,7 @@ int main(){
     scanf("%d" , &t);
     for(int i=0; i<n-1 ; i++){
         h=0;
-        for(int j=i; j<n ; j++){
+        for(int j=i+1; j<n ; j++){
             h = arr[i]+arr[j];
             if(h==t && (v1!=arr[i] && v2!=arr[j])){
                 v1 = arr[i];
