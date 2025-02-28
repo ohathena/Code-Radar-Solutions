@@ -34,7 +34,7 @@ int main() {
          if( he < min){
            int min1 = arr[i];
            int min2 = arr[i+1];
-           min = he
+           min = he;
         }
     }
     printf("%d %d" , min1 , min2);
