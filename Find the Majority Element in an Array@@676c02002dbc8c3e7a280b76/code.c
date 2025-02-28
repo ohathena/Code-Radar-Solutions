@@ -7,7 +7,7 @@ int main(){
         scanf("%d" , &arr[n]);
     }
     if(n==1){
-        printf("%d" , arr[0]);
+        printf("%d" , arr[n]);
         return 0;
     }
     if(n==2){
