@@ -28,7 +28,7 @@ int main() {
 
      int min = arr[0];
      for(int i=0 ; i<n-1 ; i++){
-         if(arr[i] - arr[i+1] < min){
+         if(arr[i+1] - arr[i] < min){
            int min1 = arr[i];
            int min2 = arr[i+1];
         }
