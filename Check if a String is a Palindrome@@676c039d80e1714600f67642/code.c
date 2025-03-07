@@ -8,7 +8,7 @@ int main(){
     for(int i = 0 ; i<n ; i++){
        str2[i]= str[n-1-i];
     }
-    if(strcmp(str == str2)==0){
+    if(strcmp(str , str2)==0){
         printf("Yes");
     }
     else{
