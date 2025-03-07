@@ -4,7 +4,7 @@
 int main(){
     char *str = NULL;
     int c =0;
-    scanf("%[^/n]s" , str);
+    scanf("%[^/n]" , &str);
     int n = strlen(str);
     if(n==0){
         printf("0");
