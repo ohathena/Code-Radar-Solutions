@@ -13,5 +13,5 @@ int main() {
             c++;
         }
     }
-    return c;
+    printf("%d" , c);
 }
