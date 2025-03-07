@@ -5,7 +5,12 @@ int main(){
     char str[100];
     char str1[100];
     fgets(str, sizeof(str) , stdin);
-    fgets(str1, sizeof(str) , stdin);
-    strcat(str , str1);
-    printf("%s" , str);
+    int n = strlen(str);
+    for(int i = 0; i<n ; i++){
+        if(str[i]!=' '){
+            str1[i]= str[i]
+        }
+    }
+
+    printf("%s" , str1);
 }
