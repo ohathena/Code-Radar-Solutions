@@ -3,7 +3,7 @@
 
 int main(){
     char str[100];
-    char str2[100];
+    char str1[100];
     fgets(str, sizeof(str) , stdin);
     fgets(str1, sizeof(str) , stdin);
     printf("%s" ,str);
