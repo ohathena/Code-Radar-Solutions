@@ -8,7 +8,7 @@ int main(){
     for(int i = n-1 ; i>=0 ; i--){
         strcat(str2, str[i]);
     }
-    if(str == str1){
+    if(str == str2){
         printf("Yes");
     }
     else{
