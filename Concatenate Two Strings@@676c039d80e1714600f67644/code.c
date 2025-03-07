@@ -8,7 +8,7 @@ int main(){
     int n = strlen(str);
     for(int i = 0; i<n ; i++){
         if(str[i]!=' '){
-            str1[i]= str[i]
+            str1[i]= str[i];
         }
     }
 
