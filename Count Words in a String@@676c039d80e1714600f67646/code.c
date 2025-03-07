@@ -4,8 +4,6 @@
 int main() {
     char str[100];  // Allocate memory for input
     int c = 0;
-
-    printf("Enter a sentence: ");
     fgets(str, sizeof(str), stdin);  // Reads the full line, including spaces
 
     int n = strlen(str);
