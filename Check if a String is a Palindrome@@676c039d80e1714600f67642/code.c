@@ -6,7 +6,7 @@ int main(){
     int n = strlen(str);
     char str2[n];
     for(int i = n-1 ; i>=0 ; i--){
-        strcat(str1, str[i]);
+        strcat(str2, str[i]);
     }
     if(str == str1){
         printf("Yes");
