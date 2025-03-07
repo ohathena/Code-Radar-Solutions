@@ -6,5 +6,5 @@ int main(){
     char str1[100];
     fgets(str, sizeof(str) , stdin);
     fgets(str1, sizeof(str) , stdin);
-    printf("%s%s" ,str,str2);
+    printf("%s%s" ,str,str1);
 }
