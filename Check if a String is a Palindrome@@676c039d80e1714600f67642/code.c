@@ -4,11 +4,11 @@ int main(){
     char *str = NULL;
     scanf("%ms" , &str);
     int n = strlen(str);
-    char str2[n];
-    for(int i = n-1 ; i>=0 ; i--){
-        strcat(str2, str[i]);
+    char str2[n+1];
+    for(int i = 0 ; i<n ; i++){
+       str2[i]= str[n-1-i];
     }
-    if(str == str2){
+    if(strcmp(str == str2)==0){
         printf("Yes");
     }
     else{
