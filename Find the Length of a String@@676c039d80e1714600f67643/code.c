@@ -3,7 +3,7 @@
 
 int main(){
     char str[100];
-    scanf("%[^/n]" , str);
+    fgets(str, sizeof(str) , stdin)
     int n = strlen(str);
     printf("%d" , n);
 }
