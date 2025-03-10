@@ -14,8 +14,7 @@ int main() {
               printf("%c" , str1[j]);
            }
            printf(" ");
-           start = i+1;
-        
+           start = i;
         }
         else{
             end = i;
