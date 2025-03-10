@@ -7,6 +7,7 @@ int main() {
     int n = strlen(str1);
     char str2[100];
     int c = 0;
+    int start = 0 , end = 0;
     for (int i = 0; i<n; i++) {
         if (str1[i] == ' ') {
            for(int j = end; j>=start ; j--){
