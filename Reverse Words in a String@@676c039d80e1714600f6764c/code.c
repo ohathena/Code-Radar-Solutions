@@ -13,7 +13,7 @@ int main() {
            for(int j = end; j>=start ; j--){
               printf("%c" , str1[j]);
            }
-           printf(" ");
+        //    printf(" ");
            start = i;
         }
         else{
