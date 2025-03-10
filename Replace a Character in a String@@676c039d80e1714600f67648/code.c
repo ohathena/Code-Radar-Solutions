@@ -6,8 +6,8 @@ int main(){
     fgets(str , sizeof(str) , stdin);
     int n = strlen(str);
     char w , r ; 
-    scanf("%c" , w);
-    scanf("%c" , r);
+    scanf("%c" , &w);
+    scanf("%c" , &r);
 
     char str1[100];
     for(int i = 0 ; i<n ; i++){
