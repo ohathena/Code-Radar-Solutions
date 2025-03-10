@@ -9,7 +9,7 @@ int main() {
     int c = 0;
     int start = 0 , end = 0;
     for (int i = 0; i<n; i++) {
-        if (str1[i] == ' ') {
+        if (str1[i] == ' ' || str1[i] == '\0') {
            for(int j = end; j>=start ; j--){
               printf("%c" , str1[j]);
            }
