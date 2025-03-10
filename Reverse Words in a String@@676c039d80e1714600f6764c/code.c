@@ -20,7 +20,5 @@ int main() {
             end = i;
         }
     }
-
-    printf("%d\n", c);
     return 0;
 }
