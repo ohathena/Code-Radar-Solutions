@@ -19,5 +19,5 @@ int main(){
             str1[i] = ch;
         }
     }
-    printf("%s" , str1)
+    printf("%s" , str1);
 }
