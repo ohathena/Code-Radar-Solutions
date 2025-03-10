@@ -16,17 +16,17 @@ int main(){
             if(c>max ){
                 max = c;
                 final = ch;
-                c= 0;
+                c= 1;
             }
             else if( c==max){
                 if(final>ch){
                 max = c;
                 final = ch;
-                c= 0;
+                c= 1;
                 }
                 else{
                 max = c;
-                c= 0;
+                c= 1;
                 }
             }
     }
