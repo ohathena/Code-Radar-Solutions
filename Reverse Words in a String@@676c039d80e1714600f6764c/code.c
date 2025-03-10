@@ -13,7 +13,9 @@ int main() {
            for(int j = end; j>=start ; j--){
               printf("%c" , str1[j]);
            }
-           printf(" ");
+           if (str1[i] == ' ') {
+                printf(" ");
+            }
            start = i;
         }
         else{
