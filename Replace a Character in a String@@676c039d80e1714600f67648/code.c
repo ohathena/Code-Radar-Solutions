@@ -13,10 +13,10 @@ int main(){
     for(int i = 0 ; i<n ; i++){
         char ch = str[i];
         if(ch == w){
-            str1[i] = r ;
+            str1[i]+ = r ;
         }
         else{
-            str1[i] = ch;
+            str1[i]+ = ch;
         }
     }
     printf("%s" , str1);
