@@ -20,7 +20,11 @@ int main(){
             }
     }
     if(c==1){
-        return str[n-1];
+        printf("%c" , str[n-1]) ;
+        return 0;
     }
-    return final;
+    else{
+         printf("%c" , final) ;
+    }
+    
 }
