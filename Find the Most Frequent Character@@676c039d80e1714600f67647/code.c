@@ -13,10 +13,21 @@ int main(){
             if(str[j]==ch){
                 c++;
             }        }
-            if(c>max){
+            if(c>max ){
                 max = c;
                 final = ch;
                 c= 0;
+            }
+            else if( c==max){
+                if(final>ch){
+                max = c;
+                final = ch;
+                c= 0;
+                }
+                else{
+                max = c;
+                c= 0;
+                }
             }
     }
     if(c==1){
