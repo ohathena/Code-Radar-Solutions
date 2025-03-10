@@ -6,10 +6,11 @@ int main(){
     char d;
     scanf("%s" , str1);
     scanf("%c" , &d);
+    printf("%c" , d);
     int n = strlen(str1);
     int c = 0;
     for(int i = 0 ; i<n ; i++){
-         printf("%c %c" , str1[i] , d);
+   
        if (str1[i] == d) {
           c++;
           
