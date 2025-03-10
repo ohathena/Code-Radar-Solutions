@@ -1,42 +1,25 @@
 #include <stdio.h>
 #include <string.h>
-int main(){
+int main() {
     char str[100];
-    fgets(str, sizeof(str), stdin); 
+    fgets(str, sizeof(str), stdin);
     int n = strlen(str);
-    int c = 1;
     int max = 0;
     char final;
-    for(int i = 0 ; i<n-1 ; i++){
-        char ch = str[i];
-        for(int j = i+1 ; j<n ; j++){
-            if(str[j]==ch){
-                c++;
-            }        }
-            if(c>max ){
-                max = c;
-                final = ch;
-                c= 1;
-            }
-            else if( c==max){
-                if(final>ch){
-                max = c;
-             
-                c= 1;
-                }
-                else{
-                max = c;
-                   final = ch;
-                c= 1;
-                }
-            }
-    }
-    if(c==1){
-        printf("%c" , str[n-1]) ;
-        return 0;
-    }
-    else{
-         printf("%c" , final) ;
-    }
     
+    for (int i = 0; i < n; i++) {
+        char ch = str[i];
+        int count = 1; 
+        for (int j = i + 1; j < n; j++) {
+            if (str[j] == ch) {
+                count++;
+            }
+        }
+        if (count > max || (count == max && ch < final)) {
+            max = count;
+            final = ch;
+        }
+    }
+    printf("%c\n", final);
+    return 0;
 }
