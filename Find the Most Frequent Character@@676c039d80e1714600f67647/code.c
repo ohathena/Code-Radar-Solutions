@@ -21,11 +21,12 @@ int main(){
             else if( c==max){
                 if(final>ch){
                 max = c;
-                final = ch;
+             
                 c= 1;
                 }
                 else{
                 max = c;
+                   final = ch;
                 c= 1;
                 }
             }
