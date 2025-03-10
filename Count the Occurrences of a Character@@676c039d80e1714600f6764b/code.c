@@ -9,13 +9,13 @@ int main(){
     int n = strlen(str1);
     int c = 0;
     for(int i = 0 ; i<n ; i++){
-         
+         printf("%c %c" , str1[i] , d);
        if (str1[i] == d) {
           c++;
-          printf("%d" , c);
+          
        }
       }
-   
+    printf("%d" , c);
     return 0 ;
      
 
