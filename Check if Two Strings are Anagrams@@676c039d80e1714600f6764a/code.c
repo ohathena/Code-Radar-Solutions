@@ -15,14 +15,18 @@ int main(){
         return 0;
      }
      else{
-
-    //    for(int i = 0 ; i<n ; i++){
-    //     for(int j = 0 ; j < y ; j++){
-    //         if(str1[i]==str[j]){
-
-    //         }
-    //     }
-    //    }
+      int sum1 = 0;
+      int sum 2 = 0;
+      for(int i = 0 ; i<n ; i++){
+        sum1 = (int)str1[i];
+        sum2 = (int)str2[i];
+      }
+      if(sum1 == sum2){
+        printf("Yes");
+      }
+      else{
+        printf("No");
+      }
      }
 
    
