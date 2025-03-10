@@ -5,7 +5,6 @@ int main() {
     char str1[100];
     char d;
     fgets(str1, sizeof(str1), stdin);
-  //  str1[strcspn(str1, "\n")] = '\0';
     scanf("%c", &d);
     int c = 0;
     for (int i = 0; str1[i] != '\0'; i++) {
