@@ -9,11 +9,12 @@ int main(){
     int n = strlen(str1);
     int c = 0;
     for(int i = 0 ; i<n ; i++){
+         printf("%d" , c);
        if (str1[i] == d) {
           c++;
        }
       }
-    printf("%d" , c);
+   
     return 0 ;
      
 
