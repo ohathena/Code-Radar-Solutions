@@ -18,7 +18,6 @@ int main() {
         }
         else{
             end = i;
-           continue; 
         }
     }
 
