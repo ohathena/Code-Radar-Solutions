@@ -6,6 +6,7 @@ int main(){
     int n = strlen(str);
     int c = 1;
     int max = 0;
+    char final;
     for(int i = 0 ; i<n-1 ; i++){
         char ch = str[i];
         for(int j = i+1 ; j<n ; j++){
