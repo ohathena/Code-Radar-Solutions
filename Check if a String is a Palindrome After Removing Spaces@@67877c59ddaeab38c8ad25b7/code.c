@@ -2,7 +2,7 @@
 #include <string.h>
 int main(){
     char *str = NULL;
-    scanf("%ms" , &str);
+    fgets(str , sizeof(str) , stdin);
     int n = strlen(str);
     char str2[n+1];
     for(int i = 0 ; i<n ; i++){
