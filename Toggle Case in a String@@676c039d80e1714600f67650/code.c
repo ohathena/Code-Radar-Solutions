@@ -9,10 +9,10 @@ int main(){
     for(int i = 0 ; i<n ; i++){
         char ch= str[i];
         if(ch < 96){
-          s+= toUpper(ch);
+          s+= toupper(ch);
         }
         else{
-            s+= toLower(ch); 
+            s+= tolower(ch); 
         }
     }
     printf("%s" , s);
