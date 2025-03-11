@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 int main(){
-    char *str = NULL;
+    char str[100];
     fgets(str , sizeof(str) , stdin);
     int n = strlen(str);
     char str2[n+1];
