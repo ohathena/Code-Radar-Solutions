@@ -12,7 +12,7 @@ int main(){
     for(int i = 0 ; i<n ; i++){
         char ch = str[i];
         if(ch == 'a' || ch == 'e' ||ch == 'i' ||ch == 'o' ||ch == 'u'){
-            str1[i]+= r ;
+            str1[i]+= w ;
         }
         else{
             str1[i]+= ch;
