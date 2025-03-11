@@ -19,6 +19,7 @@ int main(){
         if(c==0){
             b++;
             printf("%c" , str[i]);
+            return 0;
         }
     }
     if(b==0){
