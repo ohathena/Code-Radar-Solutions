@@ -5,8 +5,8 @@ int main() {
     char str1[100];
     char str2[100];
     char temp[100];
-    fgets(str1, sizeof(str1), stdin);
-    fgets(str1, sizeof(str1), stdin);
+    scanf("%s" , str1);
+    scanf("%s" , str2);
     int n = strlen(str1);
     int c= 0; 
     for (int i = n; i>0; i++) {
