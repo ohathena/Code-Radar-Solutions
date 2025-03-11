@@ -9,10 +9,11 @@ int main() {
     scanf("%s" , str2);
     int n = strlen(str1);
     int c= 0; 
-    for (int i = n; i>0; i++) {
+    for (int i = n-1; i>=0; i++) {
         temp[c]+= str1[i];
         c++;
     }
+    temp[c] = '\0';
     if(strcmp(temp , str2)==0){
         printf("Yes");
     }
