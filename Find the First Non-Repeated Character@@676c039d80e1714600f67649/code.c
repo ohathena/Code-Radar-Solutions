@@ -8,6 +8,7 @@ int main(){
     int c = 0;
     int b = 0;
     for(int i = 0 ; i<n ; i++){
+        c=0;
         for(int j = 0 ; j<n ; j++){
             if(i!=j && str[i]==str[j]){
                 c=1;
