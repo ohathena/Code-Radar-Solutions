@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include<string.h>
-
+#include <ctype.h>
 int main(){
     char str[100];
     fgets(str, sizeof(str) , stdin);
@@ -9,10 +9,11 @@ int main(){
     for(int i = 0 ; i<n ; i++){
         char ch= str[i];
         if(ch < 96){
-          s+= ch.isUpper();
+          s+= toUpper(ch);
         }
         else{
-            s+= ch.isLower(); 
+            s+= toLower(ch); 
         }
     }
+    printf("%s" , s);
 }
