@@ -7,10 +7,10 @@ int main(){
     int n = strlen(str);
     int c = 0;
     int b = 0;
-    for(int i = 0 ; i<n-1 ; i++){
-        for(int j = i+1 ; j<n ; j++){
-            if(str[i]==str[j]){
-                c++;
+    for(int i = 0 ; i<n ; i++){
+        for(int j = 0 ; j<n ; j++){
+            if(i!=j && str[i]==str[j]){
+                c=1;
                 break;
             }
            
@@ -24,3 +24,40 @@ int main(){
          printf("-");
     }
 }
+
+
+// char f(char str[]) {
+//     int i, j;
+//     int fe;
+    
+//     for (i = 0; str[i] != '\0'; i++) {
+//         fe = 0;
+//         for (j = 0; str[j] != '\0'; j++) {
+//             if (i != j && str[i] == str[j]) { 
+//                 fe = 1;
+//                 break;
+//             }
+//         }
+
+//         if (!fe) {
+//             return str[i];  
+//         }
+//     }
+    
+//     return '\0'; 
+// }
+
+// int main() {
+//     char str[100];
+//     fgets(str, sizeof(str) , stdin);
+    
+//     char result = f(str);
+    
+//     if (result != '\0') {
+//         printf("%c", result);
+//     } else {
+//         printf("-");
+//     }
+
+//     return 0;
+// }
