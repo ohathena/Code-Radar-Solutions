@@ -11,7 +11,7 @@ int main() {
          return 0;
     } 
     else{
-        printf("Yes")
+        printf("Yes");
     }
     return 0;
 }
