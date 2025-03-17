@@ -10,6 +10,10 @@ int main() {
         printf("No");
          return 0;
     } 
+    else if (strchr(str, 'b') != NULL) {
+        printf("No");
+         return 0;
+    } 
     else{
         printf("Yes");
     }
