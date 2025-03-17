@@ -6,14 +6,14 @@ int main() {
     fgets(str, sizeof(str), stdin);
     int n = strlen(str);
 
-    if (strchr(str, 'a') != NULL) {
+    if (strchr(str, 'a') == NULL) {
         printf("No");
          return 0;
     } 
-    else if (strchr(str, 'b') != NULL) {
-        printf("No");
-         return 0;
-    } 
+    // else if (strchr(str, 'c') == NULL) {
+    //     printf("No");
+    //      return 0;
+    // } 
     else{
         printf("Yes");
     }
