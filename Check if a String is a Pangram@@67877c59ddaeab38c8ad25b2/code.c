@@ -6,7 +6,7 @@ int main() {
     fgets(str1, sizeof(str1), stdin);
     int n = strlen(str1);
 
-    if (strchr(str, a) != NULL) {
+    if (strchr(str, 'a') != NULL) {
         printf("No");
          return 0;
     } 
