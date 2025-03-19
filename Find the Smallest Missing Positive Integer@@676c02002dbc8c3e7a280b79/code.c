@@ -38,11 +38,11 @@ int main() {
             max=arr2[i];
         }
     }
-   printf("%d %d %d",min,max,j);
+    printf("%d %d %d",min,max,j);
     // int sum=0;
     // for(int i=min;i<max+2;i++){
     //     sum2+=i;
     // }
-    //printf("%d",j-min);
+    // printf("%d",sum2-sum);
     return 0;
 }
