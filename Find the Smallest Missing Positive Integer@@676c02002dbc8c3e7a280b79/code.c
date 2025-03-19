@@ -43,6 +43,6 @@ int main() {
     // for(int i=min;i<max+2;i++){
     //     sum2+=i;
     // }
-    printf("%d",j-min);
+    //printf("%d",j-min);
     return 0;
 }
