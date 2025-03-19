@@ -39,4 +39,4 @@ int main() {
         printf("%d ",arr2[i]);
     }
     return 0;
-}.
+}
