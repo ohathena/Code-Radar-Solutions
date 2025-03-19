@@ -1,45 +1,29 @@
 #include <stdio.h>
-int main(){
+int main() {
     int n;
-    scanf("%d" , &n);
+    scanf("%d",&n);
     int arr[n];
-    for(int i=0 ; i<n ; i++){
-        scanf("%d" , &arr[n]);
+    for(int i=0;i<n;i++){
+        scanf("%d",&arr[i]);
     }
-    if(n==1){
-        printf("%d" , arr[n]);
-        return 0;
-    }
-    if(n==2){
-        if(arr[0]!=arr[1]){
-             printf("%d" , -1);
-        return 0;
+    int arr2[n][2];
+    int count;
+    for(int i=0;i<n;i++){
+        count=0;
+        for(int j=0;j<n;j++){
+            if (arr[i]==arr[j]){
+                ++count;
+            }
         }
-        else{
-        printf("%d" , arr[1]);
-        return 0;
-        }
+        arr2[i][0]=arr[i];
+        arr2[i][1]=count;
     }
-    if(n==3){
-        if(arr[0]!=arr[1] || arr[0]!=arr[2]){
-               printf("%d" , -1);
-               return 0;
+    for( int i=0;i<n;i++){
+        if(arr2[i][1]>(n/2)){
+            printf("%d",arr2[i][0]);
+            return 0;
         }
     }
-    int max=0;
-  int a=-1;
-    for(int i=0 ; i<n-1 ; i++){
-          int count = 0;
-         for(int j=i+1 ; i<n ; i++){
-         if(arr[i]==arr[j]){
-            count++;
-         }
-         if(count>max){
-            max = count;
-            a = arr[i];
-         }
-    }
-    }
-   printf("%d" , a);
+    printf("%d",-1);
     return 0;
 }
