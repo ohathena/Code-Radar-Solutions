@@ -1,20 +1,25 @@
+// Your code here...
 #include <stdio.h>
 #include <string.h>
 int main(){
-    char str[100];
-    fgets(str , sizeof(str) , stdin);
-    int n = strlen(str);
-    char str1[100];
-    char str2[n+1];
-    for(int i = 0 ; i<n ; i++){
-        if(str[i]!=' '){
-            str1[i]==str[i];
-       str2[i]= str[n-1-i];}
+    char s[100];
+    char s2[100];
+    fgets(s,sizeof(s),stdin);
+    for(int i=0;i<strlen(s);i++){
+        if(s[i]!=' '){
+            char temp[2];
+            temp[0]=s[i];
+            temp[1]='\0';
+            strcat(s2,temp);
+        }   
     }
-    if(strcmp(str1 , str2)==0){
-        printf("Yes");
+    printf("%s",s2);
+    for(int i=0;i<strlen(s2);i++){
+        if(s2[i]!=s2[strlen(s2)-i-1]){
+            printf("No");
+            return 0;
+        }
     }
-    else{
-        printf("No");
-    }
+    printf("Yes");
+    return 0;
 }
