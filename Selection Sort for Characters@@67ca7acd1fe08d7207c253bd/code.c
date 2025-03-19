@@ -6,12 +6,11 @@ void selectionSort(char arr[], int n) {
         minIndex = i;
 
         for (j = i + 1; j < n; j++) {
-            if (arr[j] < arr[minIndex]) { // Compare characters
+            if (arr[j] < arr[minIndex]) { 
                 minIndex = j;
             }
         }
 
-        // Swap if a smaller character is found
         if (minIndex != i) {
             temp = arr[i];
             arr[i] = arr[minIndex];
@@ -20,7 +19,6 @@ void selectionSort(char arr[], int n) {
     }
 }
 
-// Function to print a char array
 void printArray(char arr[], int n) {
     for (int i = 0; i < n; i++) {
         printf("%c ", arr[i]);
