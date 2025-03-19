@@ -1,3 +1,4 @@
+#include <string.h>
 void selectionSort(char arr[][100], int n) {
     int i, j, minIndex;
     char temp[50];  
